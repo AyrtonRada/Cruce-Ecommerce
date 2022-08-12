@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    position: relative;
+    background: #fff;
+}
+
+/*** HEADER ***/
+#menu, #cruce, #shopping_cart{
+    background-color:white;
+    border: none ;
+}
+
+#header_mobile{
+    position: absolute;
+width: 720px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#menu{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: calc(50% - 36px/2);
+}
+
+#icon_menu{
+    position: absolute;
+left: 26.39%;
+right: 26.39%;
+top: 30.56%;
+bottom: 30.56%;
+}
+
+#cruce{
+    position: absolute;
+width: 70%;
+height: 56px;
+right: 99px;
+bottom: 8px;
+}
+
+#icon_portada{
+    position: absolute;
+left: 0.41%;
+right: 6.41%;
+top: 11.11%;
+bottom: 11.02%;
+
+}
+
+#shopping_cart{
+    position: absolute;
+width: 47px;
+height: 36px;
+left: 280px;
+top: 18px;
+
+}
+
+#icon_cart{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+#number_three{
+    position: absolute;
+width: 0px;
+height: 18px;
+right: 12px;
+top: calc(50% - 18px/2 + 8px);
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 6-alerta */
+
+color: #EC2227;
+
+}
+
+
+
+/*** 721 PX ***/
+@media screen and (min-width: 721px) {
+    
+}
