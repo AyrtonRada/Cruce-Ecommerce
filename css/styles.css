@@ -99,6 +99,58 @@ color: #EC2227;
 
 }
 
+/*** TOP BANNER ***/
+
+#top_banner{
+    position: absolute;
+    width: 49%;
+left: 0px;
+top: 72px;
+background: #7D5A94;
+}
+
+#text_banner{
+height: 15px;
+left: 0px;
+right: -501px;
+top: calc(50% - 15px/2);
+margin: 5px;
+
+/* t2-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+color: #FFFFFF;
+white-space: pre;
+}
+
+#cerrado{
+    position: absolute;
+width: 30px;
+height: 24px;
+right: 0px;
+top: calc(50% - 26px/2);
+background: #7D5A94;
+}
+
+#icon_cerrado{
+    position: absolute;
+left: 33.46%;
+right: 33.46%;
+top: 33.46%;
+bottom: 33.46%;
+
+}
+
+
+
 
 
 /*** 721 PX ***/
