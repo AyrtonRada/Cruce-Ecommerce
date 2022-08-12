@@ -4,7 +4,7 @@
     margin: 0%;
 }
 
-body{
+body, main, footer{
     position: relative;
     background: #fff;
 }
@@ -103,7 +103,7 @@ color: #EC2227;
 
 #top_banner{
     position: absolute;
-    width: 49%;
+    width: 390px;
 left: 0px;
 top: 72px;
 background: #7D5A94;
@@ -134,9 +134,10 @@ white-space: pre;
 #cerrado{
     position: absolute;
 width: 30px;
-height: 24px;
+height: 25px;
 right: 0px;
-top: calc(50% - 26px/2);
+left: 359px;
+top: calc(50% - 25px/2);
 background: #7D5A94;
 }
 
@@ -148,6 +149,71 @@ top: 33.46%;
 bottom: 33.46%;
 
 }
+
+/*** BUSCADOR ***/
+#buscador{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 2.35%;
+bottom: 96.6%;
+background: #FFFFFF;
+}
+
+#buscador_2{
+    position: absolute;
+    width: 352px;
+height: 36px;
+left: 18px;
+right: 385px;
+top: 110px;
+border: 1px solid #C8C8C8;
+border-radius: 3px;
+}
+
+#lupa{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 4px;
+top: calc(50% - 30px/2);
+}
+
+#icon_lupa{
+    position: absolute;
+left: 22.21%;
+right: 25%;
+top: 25%;
+bottom: 22.22%;
+}
+
+#sugerencia{
+    position: absolute;
+width: 161px;
+height: 18px;
+left: 36px;
+top: calc(50% - 18px/2);
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+color: #8C8C8C;
+}
+
+
+
+
+
+
+
 
 
 
