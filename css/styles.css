@@ -1203,8 +1203,329 @@ order: 2;
 flex-grow: 0;
 }
 
+/*** ARTICULO 4 ***/
+
+#articulo_4{
+    position: absolute;
+width: 142px;
+height: 298px;
+left: 154px;
+top: 436px;
+
+/* blanco */
+
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+#div_articulo_4{
+    position: absolute;
+left: 6px;
+right: 6px;
+top: 0px;
+bottom: 120px;
+}
+
+#img_articulo_4{
+    position: absolute;
+width: 130px;
+height: 178px;
+left: 0px;
+top: 0px;
+}
+
+#ficha_4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+height: 108px;
+left: 6px;
+right: 6px;
+bottom: 6px;
+}
+
+#marca_nombre_4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 130px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_4{
+    width: 130px;
+height: 18px;
+
+/* btn */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 3-wabro */
+
+color: #7D5A94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#nombre_4{
+    width: 130px;
+height: 30px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#cuota_final_4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 130px;
+height: 54px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#cuota_4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 130px;
+height: 33px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_4{
+    width: 130px;
+height: 15px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* g8 */
+
+color: #505050;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+
+}
+
+#precio_4{
+    width: 130px;
+height: 18px;
+
+/* t1-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#final_4{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+
+width: 127px;
+height: 15px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#texto_final_4{
+    width: 33px;
+height: 15px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#antes_4{
+    width: 44px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* g6 */
+
+color: #8C8C8C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#despues_4{
+    width: 44px;
+height: 15px;
+
+/* t2-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 6-alerta */
+
+color: #EC2227;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
 
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
     
-}
+} 
