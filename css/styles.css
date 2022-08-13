@@ -213,7 +213,7 @@ color: #8C8C8C;
 #titulo{
     position: absolute;
 height: 30px;
-left: 0px;
+left: -35px;
 right: -1025px;
 top: 0px;
 white-space: pre;
@@ -236,7 +236,7 @@ color: #000000;
 
 #temporada{
     position: absolute;
-left: 12px;
+left: 45px;
 top: 180px;
 
 }
@@ -245,7 +245,7 @@ top: 180px;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 0px;
+left: -10px;
 top: 54px;
 background: #FFFFFF;
 border-radius: 6px;
@@ -565,7 +565,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 0px;
+left: -10px;
 top: 376px;
 
 /* blanco */
@@ -887,7 +887,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 154px;
+left: 164px;
 top: 114px;
 
 /* blanco */
@@ -1209,7 +1209,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 154px;
+left: 164px;
 top: 436px;
 
 /* blanco */
@@ -1524,6 +1524,166 @@ flex: none;
 order: 2;
 flex-grow: 0;
 }
+
+/*** WHATSAPP ***/
+
+#whatsapp{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 251px;
+top: 287px;
+
+border-radius: 30px;
+}
+
+#img_whatsapp{
+    width: 75px;
+height: 75px;
+flex: none;
+order: 1;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** PESTAÑA ***/
+
+#pestana{
+    position: absolute;
+width: 192px;
+height: 96px;
+left: -28px;
+top: 266px;
+
+}
+
+#control{
+    position: absolute;
+width: 24px;
+height: 24px;
+right: 6px;
+top: 0px;
+background: #FFFFFF;
+border: 2px solid #000000;
+border-radius: 24px;
+z-index: 1;
+}
+
+#icono{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 1px;
+top: 1px;
+
+}
+
+#cerrar{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#vector_cierre{
+    position: absolute;
+left: 33.46%;
+right: 33.46%;
+top: 33.46%;
+bottom: 33.46%;
+}
+
+#texto_pestana{
+    position: absolute;
+height: 36px;
+left: 12px;
+right: 0px;
+bottom: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+z-index: 1;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+}
+
+#forma{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+#boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 61px;
+    top: 746px;
+    
+    /* 2-user */
+    
+    background: #F26522;
+    /* black */
+    
+    border: 2px solid #000000;
+    /* btn */
+    
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 6px;
+}
+
+#texto_boton{
+    width: 127px;
+height: 18px;
+
+/* btn */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* blanco */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
