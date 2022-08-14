@@ -2719,6 +2719,313 @@ order: 2;
 flex-grow: 0;
 }
 
+/*** PRODUCTOS MAS BUSCADOS ***/
+#buscados{
+    position: absolute;
+width: 326px;
+height: 324px;
+left: 0px;
+top: 435px;
+
+}
+
+#head_buscados{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 145px;
+height: 60px;
+left: 0px;
+top: calc(50% - 60px/2 - 108px);
+}
+
+#texto_buscados{
+    width: 145px;
+height: 60px;
+
+/* h4 */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 30px;
+/* or 111% */
+
+font-feature-settings: 'zero' on;
+
+/* 1-compra */
+
+color: #76B043;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/*** SUGERENCIA 1 ***/
+
+#sugerencia_1{
+    position: absolute;
+left: 51.01%;
+right: 0%;
+top: 0%;
+bottom: 66.67%;
+
+}
+
+#img_sugerencia_1{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+}
+
+#icon_dino_sug_1{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#texto_sug_1{
+    position: absolute;
+height: 45px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+
+}
+
+/*** SUGERENCIA 2 ***/
+
+#sugerencia_2{
+    position: absolute;
+left: 0%;
+right: 51.01%;
+top: 33.33%;
+bottom: 33.33%;
+
+}
+
+#img_sugerencia_2{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#icon_dino_sug_2{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#texto_sug_2{
+    position: absolute;
+height: 45px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+}
+
+/*** SUGERENCIA 3 ***/
+
+#sugerencia_3{
+    position: absolute;
+left: 51.01%;
+right: 0%;
+top: 33.33%;
+bottom: 33.33%;
+
+}
+
+#img_sugerencia_3{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+}
+
+#icon_mochila_sug_3{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+}
+
+#texto_sug_3{
+    position: absolute;
+height: 75px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+}
+
+/*** SUGERENCIA 4 ***/
+
+#sugerencia_4{
+    position: absolute;
+left: 0%;
+right: 51.01%;
+top: 66.67%;
+bottom: 0%;
+
+}
+
+#img_sugerencia_4{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+}
+
+#icon_mochila_sug_4{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#texto_sug_4{
+    position: absolute;
+height: 75px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+
+}
+
+/*** SUGERENCIA 5 ***/
+
+#sugerencia_5{
+    position: absolute;
+left: 51.01%;
+right: 0%;
+top: 66.67%;
+bottom: 0%;
+
+}
+
+#img_sugerencia_5{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#icon_dino_sug_5{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#texto_sug_5{
+    position: absolute;
+height: 45px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+/* t2-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* black */
+
+color: #000000;
+}
+
 
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
