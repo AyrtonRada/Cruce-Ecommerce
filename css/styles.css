@@ -1690,16 +1690,16 @@ flex-grow: 0;
 
 #marcas{
     position: absolute;
-width: 296px;
+width: 340px;
 height: 132px;
-left: 12px;
+left: 7px;
 top: 1022px;
 }
 
 #texto_marcas{
     position: absolute;
 height: 30px;
-left: 0px;
+left: 7px;
 right: 0px;
 top: 0px;
 
@@ -1708,17 +1708,115 @@ top: 0px;
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 27px;
+font-size: 36px;
 line-height: 30px;
 /* identical to box height, or 111% */
 
 display: flex;
 align-items: center;
+justify-content: center;
 text-align: center;
 font-feature-settings: 'zero' on;
 
 color: #7D5A94;
 }
+
+#marcas_slide{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 36px;
+bottom: 0px;
+overflow-x: scroll;
+}
+
+#logos{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+width: 100px;
+height: 60px;
+top: 18px;
+}
+
+#marca_disney{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 24px;
+gap: 10px;
+
+width: 133px;
+height: 60px;
+
+/* blanco */
+
+background: #FFFFFF;
+/* sombra1 */
+
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+#disney{
+    width: 85px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#marca_marvel{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 24px;
+gap: 10px;
+
+width: 137.63px;
+height: 60px;
+
+/* blanco */
+
+background: #FFFFFF;
+/* sombra1 */
+
+box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+#marvel{
+    width: 89.63px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+
+
+
 
 
 
