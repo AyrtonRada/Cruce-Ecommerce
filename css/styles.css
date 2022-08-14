@@ -5107,24 +5107,122 @@ order: 2;
 flex-grow: 0;
 }
 
+/*** TEXTO PAGINADO CARRUSEL ***/
 
+#texto_paginado_carrusel{
+    position: absolute;
+width: 52px;
+height: 18px;
+right: 0px;
+bottom: 0px;
 
+/* t1-r */
 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
 
+display: flex;
+align-items: flex-end;
+text-align: right;
 
+/* black */
 
+color: #000000;
 
+}
 
+#controles_carrusel{
+    position: absolute;
+width: 120px;
+height: 48px;
+left: 0px;
+bottom: 0px;
 
+}
 
+#boton_izq_carrusel{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 0px;
+top: calc(50% - 48px/2);
 
+/* blanco */
 
+background: #FFFFFF;
+/* g4 */
 
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
 
+#boton_der_carrusel{
+    position: absolute;
+width: 48px;
+height: 48px;
+right: 0px;
+top: calc(50% - 48px/2);
 
+/* blanco */
 
+background: #FFFFFF;
+/* g4 */
 
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
 
+#div_icon_control_izq_carrusel{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+}
+
+#drop_control_izq_carrusel{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#icon_control_izq_carrusel{
+    position: absolute;
+left: 21.48%;
+right: 37.48%;
+top: 13.76%;
+bottom: 27.76%;
+}
+
+#div_icon_control_der_carrusel{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+}
+
+#drop_control_der_carrusel{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#icon_control_der_carrusel{
+    position: absolute;
+left: 31.48%;
+right: 37.48%;
+top: 10.77%;
+bottom: 27.76%;
+}
 
 
 
