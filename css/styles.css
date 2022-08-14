@@ -1812,9 +1812,101 @@ order: 0;
 flex-grow: 0;
 }
 
+/*** BENEFICIOS ***/
 
+#beneficios{
+    position: absolute;
+width: 340px;
+height: 72px;
+left: 7px;
+top: 1178px;
 
+/* blanco */
 
+background: #FFFFFF;
+}
+
+#controles{
+    position: absolute;
+width: 326px;
+height: 24px;
+left: 6px;
+top: 24px;
+}
+
+#control_izq{
+    position: absolute;
+width: 24.48px;
+height: 24px;
+left: 6px;
+top: calc(50% - 24px/2);
+
+/* blanco */
+
+background: #FFFFFF;
+/* g2 */
+
+border: 1px solid #F0F0F0;
+border-radius: 24px;
+}
+
+#icon_control_izq, #icon_control_der{
+    position: absolute;
+width: 18.36px;
+height: 18px;
+left: 3.06px;
+top: 3px;
+}
+
+#drop_3{
+    position: absolute;
+left: -5.5%;
+right: 27.5%;
+top: -0.5%;
+bottom: 38.5%;
+
+}
+
+#icon_drop_3{
+    position: absolute;
+left: 37.48%;
+right: 37.48%;
+top: 27.76%;
+bottom: 27.76%;
+}
+
+#control_der{
+    position: absolute;
+width: 24.48px;
+height: 24px;
+right: 6px;
+top: calc(50% - 24px/2);
+
+/* blanco */
+
+background: #FFFFFF;
+/* g2 */
+
+border: 1px solid #F0F0F0;
+border-radius: 24px;
+}
+
+#drop_4{
+    position: absolute;
+left: 12.5%;
+right: 27.5%;
+top: -0.5%;
+bottom: 38.5%;
+
+}
+
+#icon_drop_4{
+    position: absolute;
+left: 37.48%;
+right: 37.48%;
+top: 27.77%;
+bottom: 27.76%;
+}
 
 
 
