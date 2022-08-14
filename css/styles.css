@@ -110,34 +110,36 @@ background: #7D5A94;
 }
 
 #text_banner{
-height: 15px;
-left: 0px;
-right: -501px;
-top: calc(50% - 15px/2);
-margin: 5px;
-
-/* t2-b */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
-
-letter-spacing: 0.01em;
-font-feature-settings: 'ss01' on, 'case' on;
-color: #FFFFFF;
+    position: absolute;
+    height: 26px;
+    left: 0px;
+    right: -501px;
+    top: calc(50% - 15px/2);
+    
+    /* t2-b */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height, or 115% */
+    
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+    
+    background: #7D5A94;
+    color: #FFFFFF;
 white-space: pre;
+padding: 5px;
 }
 
 #cerrado{
     position: absolute;
 width: 30px;
-height: 25px;
-right: 0px;
-left: 359px;
-top: calc(50% - 25px/2);
+height: 23px;
+right: 35px;
+top: calc(50% - 13px/2);
 background: #7D5A94;
 }
 
@@ -162,7 +164,7 @@ background: #FFFFFF;
 
 #buscador_2{
     position: absolute;
-    width: 352px;
+    width: 315px;
 height: 36px;
 left: 18px;
 right: 385px;
@@ -245,7 +247,7 @@ top: 180px;
     position: absolute;
 width: 142px;
 height: 298px;
-left: -10px;
+left: -30px;
 top: 54px;
 background: #FFFFFF;
 border-radius: 6px;
@@ -565,7 +567,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: -10px;
+left: -30px;
 top: 376px;
 
 /* blanco */
@@ -887,7 +889,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 164px;
+left: 150px;
 top: 114px;
 
 /* blanco */
@@ -1209,7 +1211,7 @@ flex-grow: 0;
     position: absolute;
 width: 142px;
 height: 298px;
-left: 164px;
+left: 150px;
 top: 436px;
 
 /* blanco */
@@ -1536,7 +1538,7 @@ padding: 0px;
 position: absolute;
 width: 60px;
 height: 60px;
-left: 251px;
+left: 220px;
 top: 287px;
 
 border-radius: 30px;
@@ -1557,7 +1559,7 @@ flex-grow: 0;
     position: absolute;
 width: 192px;
 height: 96px;
-left: -28px;
+left: -32px;
 top: 266px;
 
 }
@@ -1637,7 +1639,7 @@ bottom: 0%;
     position: absolute;
     width: 175px;
     height: 48px;
-    left: 61px;
+    left: 50px;
     top: 746px;
     
     /* 2-user */
@@ -1683,6 +1685,41 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+/*** MARCAS ***/
+
+#marcas{
+    position: absolute;
+width: 296px;
+height: 132px;
+left: 12px;
+top: 1022px;
+}
+
+#texto_marcas{
+    position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* h4 */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 30px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'zero' on;
+
+color: #7D5A94;
+}
+
 
 
 /*** 721 PX ***/
