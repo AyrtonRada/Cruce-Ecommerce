@@ -5224,6 +5224,1216 @@ top: 10.77%;
 bottom: 27.76%;
 }
 
+/*** CAMPAÑA ***/
+
+#campana{
+    position: absolute;
+width: 325px;
+height: 684px;
+left: 0px;
+top: 1286px;
+}
+
+#campana_productos{
+    position: absolute;
+height: 474px;
+left: 12px;
+right: 12px;
+top: 210px;
+
+}
+
+#texto_campana{
+    position: absolute;
+width: 44px;
+height: 18px;
+left: 0px;
+bottom: 0px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: flex-end;
+
+/* black */
+
+color: #000000;
+}
+
+#controles_carrusel_campana{
+    position: absolute;
+width: 120px;
+height: 48px;
+right: 0px;
+bottom: 0px;
+
+}
+
+#control_izq_campana{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 0px;
+top: calc(50% - 48px/2);
+
+/* blanco */
+
+background: #FFFFFF;
+/* g4 */
+
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
+
+#div_control_izq_campana{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#drop_control_izq_campana{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#icon_control_izq_campana{
+    position: absolute;
+left: 25.48%;
+right: 37.48%;
+top: 15.76%;
+bottom: 27.76%;
+}
+
+#control_der_campana{
+    position: absolute;
+width: 48px;
+height: 48px;
+right: 0px;
+top: calc(50% - 48px/2);
+
+/* blanco */
+
+background: #FFFFFF;
+/* g4 */
+
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
+
+#div_control_der_campana{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#drop_control_der_campana{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#icon_control_der_campana{
+    position: absolute;
+left: 35.48%;
+right: 37.48%;
+top: 15.77%;
+bottom: 27.76%;
+
+}
+
+/*** SLIDE CAMPANA ***/
+
+#slide_campana{
+    position: absolute;
+width: 326px;
+height: 420px;
+left: 0px;
+top: 213px;
+overflow-x: scroll;
+overflow-y: hidden;
+z-index: 2;
+}
+
+#articulos_campana{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 768px;
+
+position: absolute;
+left: 0%;
+right: -220%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#jansport_campana{
+    width: 768px;
+height: 510px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/*** ARTICULOS CAMPANA 1 ***/
+
+#articulo_campana_1{
+    position: absolute;
+left: 0%;
+right: 68.75%;
+top: 0%;
+bottom: -21.43%;
+
+/* blanco */
+
+background: #FFFFFF;
+}
+
+#div_img_articulo_campana_1{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+}
+
+#div_jansport_campana_1{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#img_jansport_campana_1{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+/*** FICHA CAMPAÑA ***/
+
+#div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#ficha_campana{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 114px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#articulo_precio_campana{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_nombre_campana{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 36px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_campana{
+    width: 210px;
+height: 18px;
+
+/* btn */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 3-wabro */
+
+color: #7D5A94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#nombre_campana{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#precio_campana{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#cuota_campana{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 42px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_campana{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* g8 */
+
+color: #505050;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_2_campana{
+    width: 210px;
+height: 24px;
+
+/* h5 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 109% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#final_campana{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#texto_final_campana{
+    width: 38px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#texto_despues_campana{
+    width: 54px;
+height: 18px;
+
+/* t1-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULOS CAMPANA 2 ***/
+
+#articulo_campana_2{
+    position: absolute;
+left: 32%;
+right: 68.75%;
+top: 0%;
+bottom: -21.43%;
+
+/* blanco */
+
+background: #FFFFFF;
+}
+
+#div_img_articulo_campana_2{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+}
+
+#div_jansport_campana_2{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#img_jansport_campana_2{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+/*** FICHA CAMPAÑA ***/
+
+#div_ficha_2{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#ficha_campana_2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 114px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#articulo_precio_campana_2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_nombre_campana_2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 36px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_campana_2{
+    width: 210px;
+height: 18px;
+
+/* btn */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 3-wabro */
+
+color: #7D5A94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#nombre_campana_2{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#precio_campana_2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#cuota_campana_2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 42px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_campana_2{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* g8 */
+
+color: #505050;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_2_campana_2{
+    width: 210px;
+height: 24px;
+
+/* h5 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 109% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#final_campana_2{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#texto_final_campana_2{
+    width: 38px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#texto_despues_campana_2{
+    width: 54px;
+height: 18px;
+
+/* t1-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULOS CAMPANA 3 ***/
+
+#articulo_campana_3{
+    position: absolute;
+left: 64%;
+right: 68.75%;
+top: 0%;
+bottom: -21.43%;
+
+/* blanco */
+
+background: #FFFFFF;
+}
+
+#div_img_articulo_campana_3{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+}
+
+#div_jansport_campana_3{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#img_jansport_campana_3{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+/*** FICHA CAMPAÑA ***/
+
+#div_ficha_3{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#ficha_campana_3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 114px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#articulo_precio_campana_3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_nombre_campana_3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 36px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#marca_campana_3{
+    width: 210px;
+height: 18px;
+
+/* btn */
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+/* 3-wabro */
+
+color: #7D5A94;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#nombre_campana_3{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#precio_campana_3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#cuota_campana_3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 210px;
+height: 42px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_campana_3{
+    width: 210px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* g8 */
+
+color: #505050;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_2_campana_3{
+    width: 210px;
+height: 24px;
+
+/* h5 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 109% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#final_campana_3{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#texto_final_campana_3{
+    width: 38px;
+height: 18px;
+
+/* t1-r */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#texto_despues_campana_3{
+    width: 54px;
+height: 18px;
+
+/* t1-b */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+/* black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** BANNER CAMPAÑA ***/
+
+#banner_campana{
+    position: absolute;
+width: 180px;
+height: 180px;
+left: 160px;
+z-index: 1;
+}
+
+#img_banner_campana{
+    position: absolute;
+width: 180px;
+height: 180px;
+right: 24px;
+top: 60px;
+
+}
+
+#banner_2_campana{
+    position: absolute;
+width: 320px;
+height: 160px;
+left: 0px;
+top: 0px;
+}
+
+#img_banner_2_campana{
+    position: absolute;
+height: 160px;
+width: 110%;
+left: -12px;
+right: 0px;
+top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
