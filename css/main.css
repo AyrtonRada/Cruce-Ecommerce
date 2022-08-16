@@ -2,11 +2,15 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+   
 }
 
-body, main, footer{
-    position: relative;
-    background: #fff;
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /*** HEADER ***/
@@ -17,53 +21,60 @@ body, main, footer{
 
 #header_mobile{
     position: absolute;
-width: 352px;
-height: 72px;
+width: 720px;
+height: 162px;
 left: 0px;
 top: 0px;
-
 }
 
 #menu{
     position: absolute;
-width: 36px;
-height: 36px;
-left: 12px;
-top: calc(50% - 36px/2);
+width: 81px;
+height: 81px;
+left: 27px;
+top: calc(50% - 81px/2);
 }
 
 #icon_menu{
     position: absolute;
-left: 26.39%;
-right: 26.39%;
-top: 30.56%;
-bottom: 30.56%;
+left: 28.98%;
+right: 23.98%;
+top: 33.76%;
+bottom: 68.76%;
 }
 
 #cruce{
     position: absolute;
-width: 122px;
-height: 56px;
-right: 99px;
-bottom: 8px;
+width: 274.5px;
+height: 126px;
+right: 222.75px;
+bottom: 28px;
 }
 
 #icon_portada{
     position: absolute;
-left: -3.59%;
+left: -10.59%;
 right: 6.41%;
-top: 11.11%;
+top: -14.89%;
 bottom: 11.02%;
 
 }
 
 #shopping_cart{
     position: absolute;
-width: 47px;
-height: 36px;
-left: 290px;
-top: 18px;
+width: 105.75px;
+height: 81px;
+left: 555.5px;
+top: 31.5px;
 
+}
+
+#carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+right: 23px;
+top: calc(50% - 36px/2);
 }
 
 #icon_cart{
@@ -79,22 +90,20 @@ bottom: 16.67%;
 width: 0px;
 height: 18px;
 right: 12px;
-top: calc(50% - 18px/2 + 8px);
+left: 110px;
+top: calc(50% - 18px/2 + 22px);
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
+font-size: 32px;
 line-height: 18px;
-/* identical to box height, or 112% */
 
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* 6-alerta */
 
 color: #EC2227;
 
@@ -104,28 +113,36 @@ color: #EC2227;
 
 #top_banner{
     position: absolute;
-    width: 390px;
+width: 720px;
+height: 67.5px;
 left: 0px;
-top: 72px;
+top: 162px;
 background: #7D5A94;
+}
+#slide_top_banner{
+    position: absolute;
+height: 33.75px;
+left: 13.5px;
+right: 67.5px;
+top: 18px;
+overflow-x: scroll;
+
 }
 
 #text_banner{
     position: absolute;
-    width: 352px;
-    height: 26px;
+    width: 720px;
+    height: 40.5px;
     left: 0px;
     right: -501px;
-    top: calc(50% - 15px/2);
+    top: calc(50% - 44px/2);
     overflow: hidden;
-    /* t2-b */
-    
+   
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 15px;
-    /* identical to box height, or 115% */
+    font-size: 26px;
+    line-height: 32px;
     
     letter-spacing: 0.01em;
     font-feature-settings: 'ss01' on, 'case' on;
@@ -138,10 +155,11 @@ padding: 5px;
 
 #cerrado{
     position: absolute;
-width: 30px;
-height: 23px;
-right: 35px;
-top: calc(50% - 13px/2);
+width: 67.5px;
+height: 65.75px;
+right: 0px;
+top: calc(50% - 65.25px/2);
+
 background: #7D5A94;
 }
 
@@ -157,30 +175,32 @@ bottom: 33.46%;
 /*** BUSCADOR ***/
 #buscador{
     position: absolute;
+    width: 720px;
 left: 0%;
 right: 0%;
-top: 2.35%;
+top: 253px;
 bottom: 96.6%;
+
 background: #FFFFFF;
 }
 
 #buscador_2{
     position: absolute;
-    width: 315px;
-height: 36px;
-left: 18px;
-right: 385px;
-top: 110px;
-border: 1px solid #C8C8C8;
-border-radius: 3px;
+    height: 81px;
+    left: 40.5px;
+    right: 40.5px;
+    top: 14px;
+
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
 }
 
 #lupa{
     position: absolute;
-width: 30px;
-height: 30px;
-left: 4px;
-top: calc(50% - 30px/2);
+width: 67.5px;
+height: 67.5px;
+left: 12px;
+top: calc(50% - 67.5px/2);
 }
 
 #icon_lupa{
@@ -193,18 +213,18 @@ bottom: 22.22%;
 
 #sugerencia{
     position: absolute;
-width: 161px;
-height: 18px;
-left: 36px;
-top: calc(50% - 18px/2);
+width: 362.25px;
+height: 40.5px;
+left: 81px;
+top: calc(50% - 40.5px/2);
 
 /* t1-r */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 18px;
+font-size: 30px;
+line-height: 40.5px;
 /* identical to box height, or 120% */
 
 display: flex;
@@ -214,66 +234,79 @@ color: #8C8C8C;
 
 /*** ARTICULOS ***/
 
-#titulo{
-    position: absolute;
-height: 30px;
-width: 332px;
-left: -35px;
-right: -1025px;
-top: 0px;
-white-space: pre;
-overflow-x: hidden;
-overflow-y: hidden;
-
-/* h4 */
-
-font-family: 'Neue Machina';
-font-style: normal;
-font-weight: 800;
-font-size: 27px;
-line-height: 30px;
-/* identical to box height, or 111% */
-
-font-feature-settings: 'zero' on;
-
-/* black */
-
-color: #000000;
-}
-
 #temporada{
     position: absolute;
-left: 45px;
-top: 180px;
+width: 666px;
+height: 1786.5px;
+left: 27px;
+top: 400px;
 
 }
 
-#articulo{
+#slide_temporada{
     position: absolute;
-width: 142px;
-height: 298px;
-left: -30px;
-top: 54px;
+height: 67.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+overflow-x: scroll;
+}
+
+#titulo{
+    position: absolute;
+    height: 67.5px;
+    left: 0px;
+    right: -1412.25px;
+    top: 0px;
+    overflow-y: hidden;
+    white-space: pre;
+ 
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 67.5px;
+
+    font-feature-settings: 'zero' on;
+    
+    color: #000000;
+}
+
+#articulos{
+    position: absolute;
+    width: 666px;
+    height: 1530px;
+    left: 0px;
+    top: 121.5px;
+}
+
+#articulo_1{
+    position: absolute;
+width: 319.5px;
+height: 670.5px;
+left: 0px;
+top: 121.5px;
+
 background: #FFFFFF;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 #div_articulo{
     position: absolute;
-width: 130px;
-height: 178px;
-left: 0px;
+left: 12px;
+right: 12px;
 top: 0px;
+bottom: 270px;
 
 }
 
 #img_articulo{
     position: absolute;
-    width: 130px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+width: 292.5px;
+height: 400.5px;
+left: 0px;
+top: 0px;
+
 }
 
 #ficha{
@@ -281,13 +314,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 6px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 12px;
+right: 12px;
+bottom: 12px
 
 }
 
@@ -297,39 +330,30 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
-#marca{
-    width: 130px;
-height: 18px;
 
-/* btn */
+
+#marca{
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -338,26 +362,18 @@ flex-grow: 0;
 }
 
 #nombre{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -370,13 +386,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -390,14 +403,55 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota{
+    width: 292.5px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#precio{
+    width: 292.5px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
@@ -407,102 +461,33 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
 flex-grow: 0;
 }
 
-#texto_cuota{
-    width: 130px;
-height: 15px;
 
-/* t2-r */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'ss01' on, 'case' on;
-
-/* g8 */
-
-color: #505050;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-
-#precio{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'ordn' on, 'liga' off;
-
-/* black */
-
-color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-}
 
 #texto_final{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -510,27 +495,21 @@ flex-grow: 0;
 }
 
 #antes{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -538,29 +517,21 @@ flex-grow: 0;
 }
 
 #despues{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -568,31 +539,30 @@ flex-grow: 0;
 }
 
 /*** ARTICULO 2 ***/
+
 #articulo_2{
     position: absolute;
-width: 142px;
-height: 298px;
-left: -30px;
-top: 376px;
-
-/* blanco */
+width: 319.5px;
+height: 670.5px;
+left: 0px;
+top: 846px;
 
 background: #FFFFFF;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 #div_articulo_2{
     position: absolute;
-left: 6px;
-right: 6px;
+left: 12px;
+right: 12px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_articulo_2{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -602,13 +572,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 6px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 12px;
+right: 12px;
+bottom: 12px;
 }
 
 #marca_nombre_2{
@@ -617,11 +587,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -630,27 +597,19 @@ flex-grow: 0;
 }
 
 #marca_2{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -659,26 +618,18 @@ flex-grow: 0;
 }
 
 #nombre_2{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -691,13 +642,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -711,14 +659,55 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#texto_cuota_2{
+    width: 292.5px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#precio_2{
+    width: 292.5px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
 align-self: stretch;
 flex-grow: 0;
 }
@@ -728,102 +717,31 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 12px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
-flex-grow: 0;
-}
-
-#texto_cuota_2{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'ss01' on, 'case' on;
-
-/* g8 */
-
-color: #505050;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-
-#precio_2{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
-
-display: flex;
-align-items: center;
-font-feature-settings: 'ordn' on, 'liga' off;
-
-/* black */
-
-color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
 flex-grow: 0;
 }
 
 #texto_final_2{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -831,27 +749,21 @@ flex-grow: 0;
 }
 
 #antes_2{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -859,29 +771,21 @@ flex-grow: 0;
 }
 
 #despues_2{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -892,29 +796,27 @@ flex-grow: 0;
 
 #articulo_3{
     position: absolute;
-width: 142px;
-height: 298px;
-left: 150px;
-top: 114px;
-
-/* blanco */
+width: 319.5px;
+height: 670.5px;
+left: 337.5px;
+top: 256.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 #div_articulo_3{
     position: absolute;
-left: 6px;
-right: 6px;
+left: 12px;
+right: 12px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_articulo_3{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -924,13 +826,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 6px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 12px;
+right: 12px;
+bottom: 12px;
 }
 
 #marca_nombre_3{
@@ -939,11 +841,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -952,27 +851,19 @@ flex-grow: 0;
 }
 
 #marca_3{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 26px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -981,26 +872,18 @@ flex-grow: 0;
 }
 
 #nombre_3{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1013,13 +896,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -1033,11 +913,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -1046,28 +923,20 @@ flex-grow: 0;
 }
 
 #texto_cuota_3{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
-
-display: flex;
+font-size: 26px;
+line-height: 33.75px;
+   
+display: flex;  
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1076,28 +945,20 @@ flex-grow: 0;
 }
 
 #precio_3{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1110,13 +971,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -1124,28 +982,20 @@ flex-grow: 0;
 }
 
 #texto_final_3{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1153,27 +1003,21 @@ flex-grow: 0;
 }
 
 #antes_3{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1181,29 +1025,21 @@ flex-grow: 0;
 }
 
 #despues_3{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -1214,29 +1050,27 @@ flex-grow: 0;
 
 #articulo_4{
     position: absolute;
-width: 142px;
-height: 298px;
-left: 150px;
-top: 436px;
-
-/* blanco */
+width: 319.5px;
+height: 670.5px;
+left: 337.5px;
+top: 981px;
 
 background: #FFFFFF;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 #div_articulo_4{
     position: absolute;
-left: 6px;
-right: 6px;
+left: 12px;
+right: 12px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_articulo_4{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -1246,26 +1080,23 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 6px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 12px;
+right: 12px;
+bottom: 12px;
 }
 
 #marca_nombre_4{
-    display: flex;
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -1274,27 +1105,19 @@ flex-grow: 0;
 }
 
 #marca_4{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 60.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1303,26 +1126,18 @@ flex-grow: 0;
 }
 
 #nombre_4{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1335,13 +1150,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -1355,11 +1167,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 75.25px;
 
 flex: none;
 order: 0;
@@ -1368,28 +1177,20 @@ flex-grow: 0;
 }
 
 #texto_cuota_4{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1398,28 +1199,20 @@ align-self: stretch;
 }
 
 #precio_4{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1432,13 +1225,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -1446,28 +1236,20 @@ flex-grow: 0;
 }
 
 #texto_final_4{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1475,27 +1257,21 @@ flex-grow: 0;
 }
 
 #antes_4{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -1503,29 +1279,21 @@ flex-grow: 0;
 }
 
 #despues_4{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -1698,7 +1466,7 @@ flex-grow: 0;
 width: 340px;
 height: 132px;
 left: 7px;
-top: 1022px;
+top: 2022px;
 overflow-y: hidden;
 }
 
@@ -2082,7 +1850,7 @@ flex-grow: 0;
 width: 340px;
 height: 72px;
 left: 7px;
-top: 1178px;
+top: 2178px;
 
 /* blanco */
 
@@ -2988,7 +2756,7 @@ flex-grow: 0;
 width: 326px;
 height: 324px;
 left: 0px;
-top: 435px;
+top: 1435px;
 
 }
 
@@ -3296,7 +3064,7 @@ color: #000000;
 width: 296px;
 height: 442px;
 left: 12px;
-top: 800px;
+top: 1800px;
 }
 
 #head_careusel{
@@ -10302,4 +10070,4 @@ width: 100px;
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
     
-} 
+}
