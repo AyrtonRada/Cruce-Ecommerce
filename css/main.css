@@ -2851,10 +2851,10 @@ color: #000000;
 
 #carrusel{
     position: absolute;
-width: 296px;
-height: 442px;
-left: 12px;
-top: 5800px;
+width: 666px;
+height: 994.5px;
+left: 27px;
+top: 4693.5px;
 }
 
 #head_careusel{
@@ -2862,38 +2862,30 @@ top: 5800px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 12px;
+gap: 24px;
 
 position: absolute;
-width: 296px;
-height: 60px;
+width: 666px;
+height: 135px;
 left: 0px;
 top: 0px;
 }
 
 #texto_carrusel{
-    width: 296px;
-height: 30px;
-
-/* h4 */
+    width: 666px;
+height: 67.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 27px;
-line-height: 30px;
-/* identical to box height, or 111% */
+font-size: 54px;
+line-height: 67.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'zero' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2905,13 +2897,10 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: center;
-padding: 3px 6px;
+padding: 6px 12px;
 
-width: 69px;
-height: 18px;
-
-
-/* Inside auto layout */
+width: 155.25px;
+height: 40.5px;
 
 flex: none;
 order: 1;
@@ -2920,15 +2909,14 @@ flex-grow: 0;
 }
 
 #texto_enlace_carrusel{
-    width: 57px;
-height: 12px;
+    width: 128.25px;
+height: 27px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 10px;
-line-height: 12px;
-/* identical to box height, or 120% */
+font-size: 20px;
+line-height: 27px;
 
 display: flex;
 align-items: center;
@@ -2937,12 +2925,7 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2951,10 +2934,10 @@ flex-grow: 0;
 
 #slide_carrusel{
     position: absolute;
-height: 298px;
+height: 670.5px;
 left: 0px;
 right: 0px;
-top: 84px;
+top: 189px;
 overflow-x: scroll;
 }
 
@@ -2963,11 +2946,11 @@ overflow-x: scroll;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 12px;
+gap: 24px;
 
 position: absolute;
-width: 912px;
-height: 298px;
+width: 2052px;
+height: 670.5px;
 left: 0px;
 top: 0px;
 }
@@ -2978,15 +2961,11 @@ top: 0px;
 
 
 #carrusel_producto_1{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
 order: 0;
@@ -2995,16 +2974,16 @@ flex-grow: 0;
 
 #div_img_carrusel{
     position: absolute;
-left: 6px;
-right: 6px;
+left: 13.5px;
+right: 13.5px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_1{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 
@@ -3015,13 +2994,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 6px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 13.5px;
+right: 13.5px;
+bottom: 13.5px;
 }
 
 #carrusel_articulo{
@@ -3030,11 +3009,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -3043,27 +3019,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3072,26 +3040,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3104,13 +3064,11 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
+width: 292.5px;
+height: 121.5px;
 
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3124,11 +3082,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -3137,28 +3092,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3167,28 +3114,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2{
-    width: 130px;
-height: 18px;
+    width: 292.5px;
+height: 40.5px;
 
-/* t1-b */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3201,13 +3141,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -3215,28 +3152,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3244,27 +3173,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3272,29 +3195,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -3304,15 +3219,11 @@ flex-grow: 0;
 /*** CARRUSEL ARTICULO 2 ***/
 
 #carrusel_producto_2{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
 order: 1;
@@ -3321,16 +3232,16 @@ flex-grow: 0;
 
 #div_img_carrusel_2{
     position: absolute;
-left: 165px;
-right: 6px;
+left: 360px;
+right: 12px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_2{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 
@@ -3341,13 +3252,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 165px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 360px;
+right: 12px;
+bottom: 12px;
 
 }
 
@@ -3357,11 +3268,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -3370,27 +3278,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca_2{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3399,26 +3299,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre_2{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3431,13 +3323,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -3451,11 +3340,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -3464,28 +3350,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_2_2{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3494,28 +3372,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_2{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3528,13 +3398,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 185.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -3542,28 +3409,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final_2{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3571,27 +3430,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes_2{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3599,29 +3452,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues_2{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -3631,15 +3476,11 @@ flex-grow: 0;
 /*** CARRUSEL ARTICULO 3 ***/
 
 #carrusel_producto_3{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
 order: 2;
@@ -3648,16 +3489,16 @@ flex-grow: 0;
 
 #div_img_carrusel_3{
     position: absolute;
-left: 324px;
-right: 6px;
+left: 720px;
+right: 13.5px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_3{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -3667,13 +3508,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 324px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 720px;
+right: 13.5px;
+bottom: 13.5px;
 }
 
 #carrusel_articulo_3{
@@ -3682,11 +3523,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -3695,27 +3533,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca_3{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3724,26 +3554,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre_3{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3756,13 +3578,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -3776,11 +3595,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -3789,28 +3605,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_3{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3819,28 +3627,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_3{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3853,13 +3653,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -3867,28 +3664,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final_3{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -3896,27 +3685,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes_3{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -3924,29 +3707,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues_3{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -3956,33 +3731,29 @@ flex-grow: 0;
 /*** CARRUSEL ARTICULO 4 ***/
 
 #carrusel_producto_4{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
-order: 2;
+order: 3;
 flex-grow: 0;
 }
 
 #div_img_carrusel_4{
     position: absolute;
-left: 483px;
-right: 6px;
+left: 1080px;
+right: 13.5px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_4{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -3992,13 +3763,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 483px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 1080px;
+right: 13.5px;
+bottom: 13.5px;
 }
 
 #carrusel_articulo_4{
@@ -4007,11 +3778,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -4020,27 +3788,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca_4{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4049,26 +3809,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre_4{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4081,13 +3833,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -4101,11 +3850,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -4114,28 +3860,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_4{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4144,28 +3882,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_4{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4178,13 +3908,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -4192,28 +3919,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final_4{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4221,27 +3940,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes_4{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4249,65 +3962,53 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues_4{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
 
-
-/* Inside auto layout */
-
 flex: none;
-order: 2;
+order: 4;
 flex-grow: 0;
 }
 
 /*** CARRUSEL ARTICULO 5 ***/
 
 #carrusel_producto_5{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
-order: 2;
+order: 4;
 flex-grow: 0;
 }
 
 #div_img_carrusel_5{
     position: absolute;
-left: 642px;
-right: 6px;
+left: 1440px;
+right: 13.5px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_5{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -4317,13 +4018,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 642px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 1440px;
+right: 13.5px;
+bottom: 13.5px;
 }
 
 #carrusel_articulo_5{
@@ -4332,11 +4033,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -4345,27 +4043,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca_5{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4374,26 +4064,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre_5{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4408,11 +4090,8 @@ align-items: flex-start;
 padding: 0px;
 gap: 6px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -4426,11 +4105,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -4439,28 +4115,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_5{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4469,28 +4137,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_5{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4503,13 +4163,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -4517,28 +4174,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final_5{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4546,27 +4195,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes_5{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4574,29 +4217,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues_5{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -4606,33 +4241,29 @@ flex-grow: 0;
 /*** CARRUSEL ARTICULO 6 ***/
 
 #carrusel_producto_6{
-    width: 142px;
-height: 298px;
-
-/* blanco */
+    width: 319.5px;
+height: 670.5px;
 
 background: #FFFFFF;
-border-radius: 6px;
-
-/* Inside auto layout */
+border-radius: 12px;
 
 flex: none;
-order: 2;
+order: 5;
 flex-grow: 0;
 }
 
 #div_img_carrusel_6{
     position: absolute;
-left: 801px;
-right: 6px;
+left: 1800px;
+right: 13.5px;
 top: 0px;
-bottom: 120px;
+bottom: 270px;
 }
 
 #img_carrusel_producto_6{
     position: absolute;
-width: 130px;
-height: 178px;
+width: 292.5px;
+height: 400.5px;
 left: 0px;
 top: 0px;
 }
@@ -4642,13 +4273,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
 position: absolute;
-height: 108px;
-left: 801px;
-right: 6px;
-bottom: 6px;
+height: 243px;
+left: 1800px;
+right: 13.5px;
+bottom: 13.5px;
 }
 
 #carrusel_articulo_6{
@@ -4657,11 +4288,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -4670,27 +4298,19 @@ flex-grow: 0;
 }
 
 #carrusel_marca_6{
-    width: 130px;
-height: 18px;
-
-/* btn */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4699,26 +4319,18 @@ flex-grow: 0;
 }
 
 #carrusel_nombre_6{
-    width: 130px;
-height: 30px;
-
-/* t2-r */
+    width: 292.5px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4731,13 +4343,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 130px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -4751,11 +4360,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 130px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 292.5px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -4764,28 +4370,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_6{
-    width: 130px;
-height: 15px;
-
-/* t2-r */
+    width: 292.5px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4794,28 +4392,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_cuota_2_6{
-    width: 130px;
-height: 18px;
-
-/* t1-b */
+    width: 292.5px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 31px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4828,13 +4418,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -4842,28 +4429,20 @@ flex-grow: 0;
 }
 
 #texto_carrusel_final_6{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -4871,27 +4450,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_antes_6{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -4899,29 +4472,21 @@ flex-grow: 0;
 }
 
 #texto_carrusel_despues_6{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -4932,34 +4497,31 @@ flex-grow: 0;
 
 #texto_paginado_carrusel{
     position: absolute;
-width: 52px;
-height: 18px;
+width: 117px;
+height: 40.5px;
 right: 0px;
 bottom: 0px;
-
-/* t1-r */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height, or 120% */
+font-size: 30px;
+line-height: 40.5px;
 
 display: flex;
 align-items: flex-end;
 text-align: right;
 
-/* black */
-
 color: #000000;
 
 }
 
+/*** BOTONES DEL CARRUSEL ***/
+
 #controles_carrusel{
     position: absolute;
-width: 120px;
-height: 48px;
+width: 270px;
+height: 108px;
 left: 0px;
 bottom: 0px;
 
@@ -4967,81 +4529,75 @@ bottom: 0px;
 
 #boton_izq_carrusel{
     position: absolute;
-width: 48px;
-height: 48px;
+width: 108px;
+height: 108px;
 left: 0px;
-top: calc(50% - 48px/2);
-
-/* blanco */
+top: calc(50% - 108px/2);
 
 background: #FFFFFF;
-/* g4 */
 
-border: 1px solid #C8C8C8;
-border-radius: 24px;
+border: 2px solid #C8C8C8;
+border-radius: 48px;
 }
 
 #boton_der_carrusel{
     position: absolute;
-width: 48px;
-height: 48px;
+width: 108px;
+height: 108px;
 right: 0px;
-top: calc(50% - 48px/2);
-
-/* blanco */
+top: calc(50% - 108px/2);
 
 background: #FFFFFF;
-/* g4 */
 
-border: 1px solid #C8C8C8;
-border-radius: 24px;
+border: 2px solid #C8C8C8;
+border-radius: 48px;
 }
 
 #div_icon_control_izq_carrusel{
     position: absolute;
-width: 36px;
-height: 36px;
-left: 6px;
-top: 6px;
+width: 81px;
+height: 81px;
+left: 13.5px;
+top: 13.5px;
 }
 
 #drop_control_izq_carrusel{
     position: absolute;
-left: 12.5%;
+left: 0%;
 right: 12.5%;
-top: 12.5%;
+top: 0%;
 bottom: 12.5%;
 }
 
 #icon_control_izq_carrusel{
     position: absolute;
-left: 21.48%;
+left: 37.48%;
 right: 37.48%;
-top: 13.76%;
+top: 27.76%;
 bottom: 27.76%;
 }
 
 #div_icon_control_der_carrusel{
     position: absolute;
-width: 36px;
-height: 36px;
-left: 6px;
-top: 6px;
+width: 81px;
+height: 81px;
+left: 13.5px;
+top: 13.5px;
 }
 
 #drop_control_der_carrusel{
     position: absolute;
-left: 12.5%;
+left: 10%;
 right: 12.5%;
-top: 12.5%;
+top: 0%;
 bottom: 12.5%;
 }
 
 #icon_control_der_carrusel{
     position: absolute;
-left: 31.48%;
+left: 37.48%;
 right: 37.48%;
-top: 10.77%;
+top: 27.77%;
 bottom: 27.76%;
 }
 
@@ -5052,7 +4608,7 @@ bottom: 27.76%;
 width: 325px;
 height: 684px;
 left: 0px;
-top: 5286px;
+top: 25286px;
 }
 
 #campana_productos{
@@ -6251,7 +5807,7 @@ top: 0px;
 width: 296px;
 height: 324px;
 left: 12px;
-top: 5010px;
+top: 25010px;
 
 }
 
@@ -6679,7 +6235,7 @@ color: #000000;
 width: 296px;
 height: 442px;
 left: 12px;
-top: 5365px;
+top: 25365px;
 }
 
 #rec_head_careusel{
@@ -8877,7 +8433,7 @@ bottom: 27.76%;
     width: 120px;
     height: 60px;
     left: 100px;
-    top: 5860px;
+    top: 25860px;
     
     /* 5-promo */
     
