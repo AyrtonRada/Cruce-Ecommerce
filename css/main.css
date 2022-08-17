@@ -2140,10 +2140,10 @@ color: #8C8C8C;
 
 #dia{
     position: absolute;
-width: 326px;
-height: 392px;
-left: 12px;
-top: 5274px;
+width: 666px;
+height: 882px;
+left: 27px;
+top: 2866.5px;
 
 }
 
@@ -2159,17 +2159,17 @@ bottom: 47.96%;
     position: absolute;
 left: 36.49%;
 right: 36.49%;
-top: 100%;
+top: 96.49%;
 bottom: 63.27%;
 z-index: 2;
 }
 
 #play_2{
     position: absolute;
-width: 48px;
-height: 48px;
-left: calc(50% - 48px/2);
-top: calc(50% - 48px/2 - 76px);
+width: 108px;
+height: 108px;
+left: calc(50% - 108px/2);
+top: calc(50% - 108px/2 - 171px);
 }
 
 #icon_play{
@@ -2179,34 +2179,32 @@ right: 27.78%;
 top: 25%;
 bottom: 25%;
 z-index: 1;
-border-radius: 1px;
+border-radius: 2px;
 }
 
 #bg_play{
     position: absolute;
-width: 80px;
-height: 48px;
-left: calc(50% - 80px/2);
-top: calc(50% - 48px/2 - 76px);
-
-/* black */
+width: 180px;
+height: 108px;
+left: calc(50% - 180px/2);
+top: calc(50% - 108px/2 - 171px);
 
 background: #000000;
 opacity: 0.75;
-border-radius: 12px;
+border-radius: 24px;
 }
 
 #img_miniatura{
     position: absolute;
-    width: 326px;
+    width: 666px;
 left: 0%;
 right: 0%;
-top: 2%;
+top: 0%;
 bottom: 47.96%;
 z-index: 1;
 
-border: 6px solid #000000;
-border-radius: 12px;
+border: 12px solid #000000;
+border-radius: 24px;
 }
 
 #texto_dia{
@@ -2216,20 +2214,15 @@ right: -3.72%;
 top: 0%;
 bottom: 89.29%;
 
-/* h2 */
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 53px;
-line-height: 42px;
-/* identical to box height, or 98% */
+font-size: 86px;
+line-height: 94.5px;
 
 text-align: center;
 letter-spacing: -0.01em;
 font-feature-settings: 'zero' on;
-
-/* 2-user */
 
 color: #F26522;
 }
@@ -2246,20 +2239,20 @@ bottom: 3.06%;
 
 #img_articulo_dia{
     position: absolute;
-width: 120px;
-height: 164px;
+width: 270px;
+height: 369px;
 left: 0px;
-top: 6px;
+top: 12px;
 }
 
 #promo{
     position: absolute;
-width: 60px;
-height: 60px;
+width: 135px;
+height: 135px;
 left: 0px;
 bottom: 0px;
 z-index: 1;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 #desc_articulo_dia{
@@ -2269,10 +2262,10 @@ align-items: center;
 padding: 0px;
 z-index: 1;
 position: absolute;
-width: 36px;
-height: 18px;
-left: calc(50% - 36px/2 + 8px);
-top: calc(50% - 18px/2 + -4px);
+width: 81px;
+height: 40.5px;
+left: calc(50% - 81px/2 + 18px);
+top: calc(50% - 40.5px/2 + -9px);
 
 transform: rotate(-15deg);
 }
@@ -2286,15 +2279,14 @@ bottom: 0%;
 }
 
 #num_desc{
-    width: 23px;
-height: 18px;
+    width: 51.75px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
@@ -2302,13 +2294,9 @@ text-align: right;
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* blanco */
-
 color: #FFFFFF;
 
 transform: rotate(-15deg);
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2316,15 +2304,14 @@ flex-grow: 0;
 }
 
 #porcentaje_desc{
-    width: 13px;
-height: 12px;
+    width: 29.25px;
+height: 27px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 10px;
-line-height: 12px;
-/* identical to box height, or 120% */
+font-size: 20px;
+line-height: 27px;
 
 display: flex;
 align-items: center;
@@ -2333,13 +2320,9 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* blanco */
-
 color: #FFFFFF;
 
 transform: rotate(-15deg);
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -2348,18 +2331,17 @@ flex-grow: 0;
 
 #div_img_producto_dia{
     position: absolute;
-width: 120px;
-height: 164px;
+width: 27px;
+height: 369px;
 left: 0px;
 top: 0px;
 }
 
 #img_producto_dia{
     position: absolute;
-    width: 125px;
     left: 0px;
     right: 0px;
-    top: 6px;
+    top: 0px;
     bottom: 0px;
 }
 /*** FICHA JUGUETE DEL DIA ***/
@@ -2369,13 +2351,13 @@ top: 0px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 12px;
+gap: 24px;
 
 position: absolute;
-height: 114px;
-left: 140px;
+height: 256.5px;
+left: 297px;
 right: 0px;
-top: 24px;
+top: 54px;
 
 }
 
@@ -2385,11 +2367,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 164px;
-height: 48px;
-
-
-/* Inside auto layout */
+width: 369px;
+height: 108px;
 
 flex: none;
 order: 0;
@@ -2398,27 +2377,19 @@ flex-grow: 0;
 }
 
 #texto_marca_dia{
-    width: 164px;
-height: 18px;
-
-/* btn */
+    width: 369px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 3-wabro */
-
 color: #7D5A94;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2427,26 +2398,18 @@ flex-grow: 0;
 }
 
 #texto_nombre_dia{
-    width: 162px;
-height: 30px;
-
-/* t2-r */
+    width: 369px;
+height: 67.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -2459,13 +2422,10 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 6px;
+gap: 12px;
 
-width: 164px;
-height: 54px;
-
-
-/* Inside auto layout */
+width: 369px;
+height: 121.5px;
 
 flex: none;
 order: 1;
@@ -2479,11 +2439,8 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-width: 164px;
-height: 33px;
-
-
-/* Inside auto layout */
+width: 369px;
+height: 74.25px;
 
 flex: none;
 order: 0;
@@ -2492,28 +2449,20 @@ flex-grow: 0;
 }
 
 #texto_cuota_dia{
-    width: 164px;
-height: 15px;
-
-/* t2-r */
+    width: 369px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g8 */
-
 color: #505050;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2522,28 +2471,20 @@ flex-grow: 0;
 }
 
 #texto_precio_dia{
-    width: 164px;
-height: 18px;
-
-/* t1-b */
+    width: 369px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ordn' on, 'liga' off;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -2558,13 +2499,10 @@ flex-grow: 0;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-gap: 3px;
+gap: 6px;
 
-width: 127px;
-height: 15px;
-
-
-/* Inside auto layout */
+width: 285.75px;
+height: 33.75px;
 
 flex: none;
 order: 1;
@@ -2572,28 +2510,20 @@ flex-grow: 0;
 }
 
 #texto_final_dia{
-    width: 33px;
-height: 15px;
-
-/* t2-r */
+    width: 74.25px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* black */
-
 color: #000000;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -2601,27 +2531,21 @@ flex-grow: 0;
 }
 
 #texto_antes_dia{
-    width: 44px;
-height: 15px;
+    width: 99px;
+height: 33.75px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 text-decoration-line: line-through;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* g6 */
-
 color: #8C8C8C;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -2629,29 +2553,21 @@ flex-grow: 0;
 }
 
 #texto_despues_dia{
-    width: 44px;
-height: 15px;
-
-/* t2-b */
+    width: 99px;
+height: 40.5px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* 6-alerta */
-
 color: #EC2227;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
