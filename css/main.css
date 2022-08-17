@@ -218,14 +218,11 @@ height: 40.5px;
 left: 81px;
 top: calc(50% - 40.5px/2);
 
-/* t1-r */
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 40.5px;
-/* identical to box height, or 120% */
 
 display: flex;
 align-items: center;
@@ -1806,54 +1803,49 @@ flex-grow: 0;
 
 #beneficios{
     position: absolute;
-width: 340px;
-height: 72px;
-left: 7px;
-top: 5178px;
-
-/* blanco */
+width: 720px;
+height: 162px;
+left: 0px;
+top: 2650.5px;
 
 background: #FFFFFF;
 }
 
 #controles{
     position: absolute;
-width: 326px;
-height: 24px;
-left: 6px;
-top: 24px;
+width: 693px;
+height: 54px;
+left: 13.5px;
+top: 54px;
 }
 
 #control_izq{
     position: absolute;
-width: 24.48px;
-height: 24px;
-left: 6px;
-top: calc(50% - 24px/2);
-
-/* blanco */
+width: 55.08px;
+height: 54px;
+left: 13.5px;
+top: calc(50% - 54px/2);
 
 background: #FFFFFF;
-/* g2 */
 
-border: 1px solid #F0F0F0;
-border-radius: 24px;
+border: 2px solid #F0F0F0;
+border-radius: 48px;
 }
 
 #icon_control_izq, #icon_control_der{
     position: absolute;
-width: 18.36px;
-height: 18px;
-left: 3.06px;
-top: 3px;
+width: 41.31px;
+height: 40.5px;
+left: 6.88px;
+top: 6.75px;
 }
 
 #drop_3{
     position: absolute;
-left: -5.5%;
-right: 27.5%;
-top: -0.5%;
-bottom: 38.5%;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
 
 }
 
@@ -1867,26 +1859,23 @@ bottom: 27.76%;
 
 #control_der{
     position: absolute;
-width: 24.48px;
-height: 24px;
-right: 6px;
-top: calc(50% - 24px/2);
-
-/* blanco */
+width: 55.08px;
+height: 54px;
+right: 13.5px;
+top: calc(50% - 54px/2);
 
 background: #FFFFFF;
-/* g2 */
 
-border: 1px solid #F0F0F0;
-border-radius: 24px;
+border: 2px solid #F0F0F0;
+border-radius: 48px;
 }
 
 #drop_4{
     position: absolute;
 left: 12.5%;
-right: 27.5%;
-top: -0.5%;
-bottom: 38.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
 
 }
 
@@ -1902,7 +1891,7 @@ bottom: 27.76%;
 
 #beneficios_slide{
     position: absolute;
-height: 72px;
+height: 160px;
 left: 0px;
 right: 0px;
 top: 0px;
@@ -1913,21 +1902,21 @@ overflow-x: scroll;
     display: flex;
 flex-direction: row;
 align-items: center;
-padding: 18px 36px;
-gap: 12px;
+padding: 36px 72px;
+gap: 24px;
 
 position: absolute;
-width: 727px;
-height: 72px;
+width: 1635.75px;
+height: 162px;
 left: 0px;
-top: calc(50% - 72px/2);
+top: calc(50% - 162px/2);
 
-border-radius: 0px 0px 12px 12px;
+border-radius: 0px 0px 24px 24px;
 }
 
 #beneficios_cuotas{
-    width: 184px;
-height: 36px;
+    width: 414px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1936,10 +1925,10 @@ flex-grow: 0;
 
 #credito{
     position: absolute;
-width: 36px;
-height: 36px;
-left: 36px;
-top: 18px;
+width: 81px;
+height: 81px;
+left: 81px;
+top: 40.5px;
 
 }
 
@@ -1955,62 +1944,48 @@ bottom: 25%;
 
 #texto_cuotas{
     position: absolute;
-width: 136px;
-height: 18px;
-left: calc(50% - 136px/2 - 211.5px);
-top: calc(50% - 18px/2 - 7px);
-
-/* btn */
+width: 306px;
+height: 40.5px;
+left: calc(50% - 306px/2 - 475.87px);
+top: calc(50% - 40.5px/2 - 15.75px);
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* black */
 
 color: #000000;
 }
 
 #texto_credito{
     position: absolute;
-width: 78px;
-height: 15px;
-left: calc(50% - 78px/2 - 240.5px);
-top: calc(50% - 15px/2 + 10.5px);
-
-/* t2-b */
+width: 175.5px;
+height: 33.75px;
+left: calc(50% - 175.5px/2 - 541.12px);
+top: calc(50% - 33.75px/2 + 31.5px);
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* 6-alerta */
 
 color: #EC2227;
 }
 
 #borde{
-    width: 36px;
+    width: 81px;
 height: 0px;
 
-/* g4 */
-
-border: 1px solid #C8C8C8;
+border: 2px solid #C8C8C8;
 transform: rotate(-60deg);
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -2020,8 +1995,8 @@ flex-grow: 0;
 /*** BENEFICIO 2 ***/
 
 #beneficios_envio{
-    width: 186px;
-    height: 36px;
+    width: 418.5px;
+    height: 81px;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -2029,10 +2004,10 @@ flex-grow: 0;
 
 #envio{
     position: absolute;
-width: 36px;
-height: 36px;
-left: 262px;
-top: 18px;
+width: 81px;
+height: 81px;
+left: 589.5px;
+top: 40.5px;
 
 }
 
@@ -2046,62 +2021,49 @@ bottom: 19.44%;
 
 #texto_envio{
     position: absolute;
-width: 116px;
-height: 18px;
-left: calc(50% - 116px/2 + 4.5px);
-top: calc(50% - 18px/2 - 7px);
-
-/* btn */
+width: 216px;
+height: 40.5px;
+left: calc(50% - 216px/2 + 10.12px);
+top: calc(50% - 40.5px/2 - 15.75px);
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* black */
 
 color: #000000;
 }
 
 #texto_envio_2{
     position: absolute;
-width: 138px;
-height: 15px;
-left: calc(50% - 138px/2 + 15.5px);
-top: calc(50% - 15px/2 + 10.5px);
-
-/* t2-b */
+width: 310.5px;
+height: 33.75px;
+left: calc(50% - 310.5px/2 + 34.87px);
+top: calc(50% - 33.75px/2 + 23.62px);
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* 6-alerta */
 
 color: #EC2227;
 }
 
 #borde_2{
-    width: 36px;
+    width: 81px;
 height: 0px;
 
-/* g4 */
 
-border: 1px solid #C8C8C8;
+border: 2px solid #C8C8C8;
 transform: rotate(-60deg);
-
-/* Inside auto layout */
 
 flex: none;
 order: 3;
@@ -2111,11 +2073,8 @@ flex-grow: 0;
 /*** BENEFICIO 3 ***/
 
 #beneficios_envio_2{
-    width: 201px;
-height: 36px;
-
-
-/* Inside auto layout */
+    width: 452.25px;
+height: 81px;
 
 flex: none;
 order: 4;
@@ -2124,10 +2083,10 @@ flex-grow: 0;
 
 #envio_2{
     position: absolute;
-width: 36px;
-height: 36px;
-left: calc(50% - 36px/2 + 160.5px);
-top: calc(50% - 36px/2);
+width: 81px;
+height: 81px;
+left: calc(50% - 81px/2 + 361.12px);
+top: calc(50% - 81px/2);
 
 }
 
@@ -2141,48 +2100,38 @@ bottom: 19.44%;
 
 #texto_envio_24h{
     position: absolute;
-width: 153px;
-height: 18px;
-left: calc(50% - 153px/2 + 270px);
-top: calc(50% - 18px/2 - 7px);
-
-/* btn */
+width: 344.25px;
+height: 40.5px;
+left: calc(50% - 344.25px/2 + 607.5px);
+top: calc(50% - 40.5px/2 - 15.75px);
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* black */
 
 color: #000000;
 }
 
 #texto_envio_costo{
     position: absolute;
-width: 128px;
-height: 15px;
-left: calc(50% - 128px/2 + 258.5px);
-top: calc(50% - 15px/2 + 10.5px);
-
-/* t2-b */
+width: 288px;
+height: 33.75px;
+left: calc(50% - 288px/2 + 581.62px);
+top: calc(50% - 33.75px/2 + 23.62px);
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height, or 115% */
+font-size: 26px;
+line-height: 33.75px;
 
 letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
-
-/* g6 */
 
 color: #8C8C8C;
 }
