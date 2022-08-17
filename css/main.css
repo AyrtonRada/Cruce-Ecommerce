@@ -1455,28 +1455,25 @@ flex-grow: 0;
 
 #marcas{
     position: absolute;
-width: 340px;
-height: 132px;
-left: 7px;
-top: 5022px;
+width: 666px;
+height: 297px;
+left: 15.75px;
+top: 2299.5px;
 overflow-y: hidden;
 }
 
 #texto_marcas{
     position: absolute;
-height: 30px;
-left: 7px;
+height: 67.5px;
+left: 0px;
 right: 0px;
 top: 0px;
-
-/* h4 */
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 36px;
-line-height: 30px;
-/* identical to box height, or 111% */
+font-size: 54px;
+line-height: 67.5px;
 
 display: flex;
 align-items: center;
@@ -1491,9 +1488,11 @@ color: #7D5A94;
     position: absolute;
 left: 0px;
 right: 0px;
-top: 36px;
+top: 81px;
 bottom: 0px;
 overflow-x: scroll;
+overflow-y: hidden;
+
 }
 
 #logos{
@@ -1501,12 +1500,13 @@ overflow-x: scroll;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 18px;
+gap: 36px;
 
 position: absolute;
-width: 100px;
-height: 60px;
-top: 18px;
+width: 3058.89px;
+height: 135px;
+left: -1156px;
+top: 40.5px;
 }
 
 /*** DISNEY ***/
@@ -1515,31 +1515,27 @@ top: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 24px;
-    gap: 10px;
+    padding: 24px 48px;
+    gap: 20px;
     
-    width: 137.63px;
-    height: 60px;
-    
-    /* blanco */
+    width: 299.25px;
+    height: 135px;
     
     background: #FFFFFF;
-    /* sombra1 */
+    opacity: 0.5;
     
-    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-    border-radius: 9px;
-    
-    /* Inside auto layout */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
     
     flex: none;
-    order: 4;
+    order: 0;
     flex-grow: 0;
 
 }
 
 #img_marca_disney{
-    width: 85px;
-height: 36px;
+    width: 191.25px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1550,32 +1546,28 @@ flex-grow: 0;
 
 #marca_marvel{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
-
-width: 137.63px;
-height: 60px;
-
-/* blanco */
-
-background: #FFFFFF;
-/* sombra1 */
-
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 4;
-flex-grow: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 48px;
+    gap: 20px;
+    
+    width: 309.66px;
+    height: 135px;
+    
+    background: #FFFFFF;
+    opacity: 0.5;
+    
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 #img_marca_marvel{
-    width: 89.63px;
-height: 36px;
+    width: 201.66px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1588,30 +1580,26 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
+padding: 24px 48px;
+gap: 20px;
 
-width: 137.63px;
-height: 60px;
-
-/* blanco */
+width: 299.25px;
+height: 135px;
 
 background: #FFFFFF;
-/* sombra1 */
+opacity: 0.5;
 
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
-
-/* Inside auto layout */
+box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+border-radius: 6px;
 
 flex: none;
-order: 4;
+order: 2;
 flex-grow: 0;
 }
 
 #img_marca_LOL{
-    width: 89.63px;
-height: 36px;
+    width: 191.25px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1624,30 +1612,26 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
+padding: 24px 48px;
+gap: 20px;
 
-width: 137.63px;
-height: 60px;
+width: 309.66px;
+height: 135px;
 
-/* blanco */
+opacity: 0.5;
 
 background: #FFFFFF;
-/* sombra1 */
-
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
-
-/* Inside auto layout */
+box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+border-radius: 18px;
 
 flex: none;
-order: 5;
+order: 3;
 flex-grow: 0;
 }
 
 #img_marca_funko{
-    width: 89.63px;
-height: 36px;
+    width: 201.66px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1660,31 +1644,26 @@ flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 24px;
-    gap: 10px;
+    padding: 24px 48px;
+    gap: 20px;
     
-    width: 137.63px;
-    height: 60px;
-    
-    /* blanco */
+    width: 309.66px;
+    height: 135px;
     
     background: #FFFFFF;
-    /* sombra1 */
     
-    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-    border-radius: 9px;
-    
-    /* Inside auto layout */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
     
     flex: none;
-    order: 6;
+    order: 4;
     flex-grow: 0;
 
 }
 
 #img_marca_disney_2{
-    width: 85px;
-height: 36px;
+    width: 191.25px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1697,30 +1676,27 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
+padding: 24px 48px;
+gap: 20px;
 
-width: 137.63px;
-height: 60px;
-
-/* blanco */
+width: 309.66px;
+height: 135px;
 
 background: #FFFFFF;
-/* sombra1 */
 
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
+box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+border-radius: 18px;
 
-/* Inside auto layout */
+opacity: 0.5;
 
 flex: none;
-order: 7;
+order: 5;
 flex-grow: 0;
 }
 
 #img_marca_marvel_2{
-    width: 89.63px;
-height: 36px;
+    width: 201.66px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1733,30 +1709,27 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
+padding: 24px 48px;
+gap: 20px;
 
-width: 137.63px;
-height: 60px;
+width: 309.66px;
+height: 135px;
 
-/* blanco */
+opacity: 0.5;
 
 background: #FFFFFF;
-/* sombra1 */
 
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
-
-/* Inside auto layout */
+box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+border-radius: 18px;
 
 flex: none;
-order: 8;
+order: 6;
 flex-grow: 0;
 }
 
 #img_marca_LOL_2{
-    width: 89.63px;
-height: 36px;
+    width: 191.25px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1772,27 +1745,24 @@ align-items: flex-start;
 padding: 12px 24px;
 gap: 10px;
 
-width: 137.63px;
-height: 60px;
+width: 309.66px;
+height: 135px;
 
-/* blanco */
+opacity: 0.5;
 
 background: #FFFFFF;
-/* sombra1 */
 
 box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
 border-radius: 9px;
 
-/* Inside auto layout */
-
 flex: none;
-order: 9;
+order: 7;
 flex-grow: 0;
 }
 
 #img_marca_funko_2{
-    width: 89.63px;
-height: 36px;
+    width: 201.66px;
+height: 81px;
 
 flex: none;
 order: 0;
@@ -1805,30 +1775,27 @@ flex-grow: 0;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
+padding: 24px 48px;
+gap: 20px;
 
-width: 137.63px;
-height: 60px;
+width: 309.66px;
+height: 135px;
 
-/* blanco */
+opacity: 0.5;
 
 background: #FFFFFF;
-/* sombra1 */
 
-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
-border-radius: 9px;
-
-/* Inside auto layout */
+box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+border-radius: 18px;
 
 flex: none;
-order: 10;
+order: 8;
 flex-grow: 0;
 }
 
 #img_marca_marvel_3{
-    width: 89.63px;
-height: 36px;
+    width: 191.25px;
+height: 81px;
 
 flex: none;
 order: 0;
