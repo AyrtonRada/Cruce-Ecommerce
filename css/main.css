@@ -280,12 +280,14 @@ overflow-x: scroll;
     top: 121.5px;
 }
 
+/*** ARTICULO 1 ***/
+
 #articulo_1{
     position: absolute;
 width: 319.5px;
 height: 670.5px;
 left: 0px;
-top: 121.5px;
+top: 0px;
 
 background: #FFFFFF;
 border-radius: 12px;
@@ -545,7 +547,7 @@ flex-grow: 0;
 width: 319.5px;
 height: 670.5px;
 left: 0px;
-top: 846px;
+top: 724.5px;
 
 background: #FFFFFF;
 border-radius: 12px;
@@ -799,7 +801,7 @@ flex-grow: 0;
 width: 319.5px;
 height: 670.5px;
 left: 337.5px;
-top: 256.5px;
+top: 135px;
 
 background: #FFFFFF;
 border-radius: 12px;
@@ -1053,7 +1055,7 @@ flex-grow: 0;
 width: 319.5px;
 height: 670.5px;
 left: 337.5px;
-top: 981px;
+top: 859.5px;
 
 background: #FFFFFF;
 border-radius: 12px;
@@ -1309,17 +1311,17 @@ align-items: flex-start;
 padding: 0px;
 
 position: absolute;
-width: 60px;
-height: 60px;
-left: 220px;
-top: 287px;
+width: 135px;
+height: 135px;
+left: 540.5px;
+top: 1106.25px;
 
-border-radius: 30px;
+border-radius: 60px;
 }
 
 #img_whatsapp{
-    width: 75px;
-height: 75px;
+    width: 135px;
+height: 135px;
 flex: none;
 order: 1;
 align-self: flex-start;
@@ -1330,40 +1332,40 @@ flex-grow: 0;
 
 #pestana{
     position: absolute;
-width: 192px;
-height: 96px;
-left: -32px;
-top: 266px;
+width: 385px;
+height: 190px;
+left: 12px;
+top: 1046.25px;
 
 }
 
 #control{
     position: absolute;
-width: 24px;
-height: 24px;
-right: 6px;
+width: 54px;
+height: 54px;
+right: 12px;
 top: 0px;
-background: #FFFFFF;
-border: 2px solid #000000;
-border-radius: 24px;
 z-index: 1;
+background: #FFFFFF;
+border: 4px solid #000000;
+border-radius: 48px;
 }
 
 #icono{
     position: absolute;
-width: 18px;
-height: 18px;
-left: 1px;
-top: 1px;
+width: 40.5px;
+height: 40.5px;
+left: 6.75px;
+top: 6.75px;
 
 }
 
 #cerrar{
     position: absolute;
-left: 12.5%;
-right: 12.5%;
-top: 12.5%;
-bottom: 12.5%;
+left: 0%;
+right: 15%;
+top: 0%;
+bottom: 20%;
 
 }
 
@@ -1377,17 +1379,17 @@ bottom: 33.46%;
 
 #texto_pestana{
     position: absolute;
-height: 36px;
-left: 12px;
+height: 81px;
+left: 27px;
 right: 0px;
-bottom: 42px;
+bottom: 72.5px;
+z-index: 1;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
-line-height: 18px;
-z-index: 1;
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
@@ -1402,43 +1404,38 @@ top: 0%;
 bottom: 0%;
 }
 
+/*** BOTON TEMPORADA ***/
+
 #boton{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 24px;
-    gap: 10px;
+    padding: 33.75px 54px;
+    gap: 20px;
     
     position: absolute;
-    width: 175px;
-    height: 48px;
-    left: 50px;
-    top: 746px;
-    
-    /* 2-user */
+    width: 393.75px;
+    height: 108px;
+    left: 112.5px;
+    top: 1678.5px;
     
     background: #F26522;
-    /* black */
     
-    border: 2px solid #000000;
-    /* btn */
+    border: 4px solid #000000;
     
-    box-shadow: 3px 3px 0px #000000;
-    border-radius: 6px;
+    box-shadow: 6px 6px 0px #000000;
+    border-radius: 12px;
 }
 
 #texto_boton{
-    width: 127px;
-height: 18px;
-
-/* btn */
+    width: 285.75px;
+height: 40.5px;
 
 font-family: 'Neue Machina';
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
+font-size: 32px;
+line-height: 40.5px;
 
 display: flex;
 align-items: center;
@@ -1447,12 +1444,7 @@ justify-content: center;
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
-/* blanco */
-
 color: #FFFFFF;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -1466,7 +1458,7 @@ flex-grow: 0;
 width: 340px;
 height: 132px;
 left: 7px;
-top: 2022px;
+top: 5022px;
 overflow-y: hidden;
 }
 
@@ -1850,7 +1842,7 @@ flex-grow: 0;
 width: 340px;
 height: 72px;
 left: 7px;
-top: 2178px;
+top: 5178px;
 
 /* blanco */
 
@@ -2235,7 +2227,7 @@ color: #8C8C8C;
 width: 326px;
 height: 392px;
 left: 12px;
-top: 1274px;
+top: 5274px;
 
 }
 
@@ -2756,7 +2748,7 @@ flex-grow: 0;
 width: 326px;
 height: 324px;
 left: 0px;
-top: 1435px;
+top: 5435px;
 
 }
 
@@ -3064,7 +3056,7 @@ color: #000000;
 width: 296px;
 height: 442px;
 left: 12px;
-top: 1800px;
+top: 5800px;
 }
 
 #head_careusel{
@@ -5262,7 +5254,7 @@ bottom: 27.76%;
 width: 325px;
 height: 684px;
 left: 0px;
-top: 1286px;
+top: 5286px;
 }
 
 #campana_productos{
@@ -6461,7 +6453,7 @@ top: 0px;
 width: 296px;
 height: 324px;
 left: 12px;
-top: 2010px;
+top: 5010px;
 
 }
 
@@ -6889,7 +6881,7 @@ color: #000000;
 width: 296px;
 height: 442px;
 left: 12px;
-top: 2365px;
+top: 5365px;
 }
 
 #rec_head_careusel{
@@ -9087,7 +9079,7 @@ bottom: 27.76%;
     width: 120px;
     height: 60px;
     left: 100px;
-    top: 2860px;
+    top: 5860px;
     
     /* 5-promo */
     
