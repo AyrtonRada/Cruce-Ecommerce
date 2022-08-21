@@ -13,6 +13,7 @@ html, body{
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 720px){
 
 /*** HEADER ***/
 #menu, #cruce, #shopping_cart{
@@ -8527,7 +8528,7 @@ top: 45.11%;
 bottom: 11.02%;
 
 }
-
+}
 
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
@@ -8918,6 +8919,55 @@ font-feature-settings: 'ss01' on, 'case' on;
 
 color: #EC2227;
 
+}
+
+    /*** TOP BANNER ***/
+
+#top_banner_desk{
+position: absolute;
+width: 1366px;
+height: 30px;
+left: 0px;
+top: 96px;
+
+background: #7D5A94;
+}
+
+#cerrado_desk{
+    position: absolute;
+width: 30px;
+height: 30px;
+right: 24px;
+top: calc(50% - 30px/2);
+
+}
+
+#icono_cerrado_desk{
+    position: absolute;
+left: 33.46%;
+right: 33.46%;
+top: 33.46%;
+bottom: 33.46%;
+
+}
+
+#texto_banner_desk{
+    position: absolute;
+height: 15px;
+left: 24px;
+right: 54px;
+top: calc(50% - 15px/2 + 0.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
 }
 
 
