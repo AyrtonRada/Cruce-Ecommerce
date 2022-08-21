@@ -8970,6 +8970,219 @@ font-feature-settings: 'ss01' on, 'case' on;
 color: #FFFFFF;
 }
 
+    /*** BENEFICIOS ***/
+
+#beneficios_desk{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 36px;
+gap: 24px;
+
+position: absolute;
+width: 775px;
+height: 72px;
+left: calc(50% - 775px/2 + 0.5px);
+top: 126px;
+
+border-radius: 0px 0px 12px 12px;
+}
+
+    /*** BENEFICIO 1 ***/
+
+#beneficio_1{
+    width: 184px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#beneficio_1_credito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 36px;
+top: 18px;
+
+}
+
+#beneficio_1_credito_icono{
+    position: absolute;
+left: 13.89%;
+right: 13.89%;
+top: 25%;
+bottom: 25%;
+}
+
+#beneficio_1_texto_1{
+    position: absolute;
+    width: 136px;
+    height: 18px;
+    left: calc(50% - 136px/2 - 235.5px);
+    top: calc(50% - 18px/2 - 7px);
+    
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+   
+    letter-spacing: 0.05em;
+    font-feature-settings: 'ss01' on, 'case' on;
+
+    color: #000000;
+}
+#beneficio_1_texto_2{
+    position: absolute;
+    width: 78px;
+    height: 15px;
+    left: calc(50% - 78px/2 - 264.5px);
+    top: calc(50% - 15px/2 + 10.5px);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+
+    color: #EC2227;
+}
+
+    /*** BENEFICIO 2 ***/
+
+#beneficio_2{
+    width: 186px;
+height: 36px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#beneficio_2_envio{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 286px;
+top: 18px;
+}
+
+#beneficio_2_envio_icono{
+    position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 22.22%;
+bottom: 19.44%;
+}
+
+#beneficio_2_texto_1{
+    position: absolute;
+    width: 116px;
+    height: 18px;
+    left: calc(50% - 116px/2 + 4.5px);
+    top: calc(50% - 18px/2 - 7px);
+
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+ 
+    letter-spacing: 0.05em;
+    font-feature-settings: 'ss01' on, 'case' on;
+}
+
+#beneficio_2_texto_2{
+    position: absolute;
+    width: 138px;
+    height: 15px;
+    left: calc(50% - 138px/2 + 15.5px);
+    top: calc(50% - 15px/2 + 10.5px);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+ 
+    color: #EC2227;
+    
+}
+
+#beneficio_3{
+    width: 201px;
+height: 36px;
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+#beneficio_3_envio_1{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: calc(50% - 36px/2 + 168.5px);
+top: calc(50% - 36px/2);
+
+}
+
+#beneficio_3_envio_1_icono{
+    position: absolute;
+left: 15.28%;
+right: 15.28%;
+top: 22.22%;
+bottom: 19.44%;
+}
+
+#beneficio_3_texto_1{
+    position: absolute;
+    width: 153px;
+    height: 18px;
+    left: calc(50% - 153px/2 + 275px);
+    top: calc(50% - 18px/2 - 7px);
+    
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+ 
+    letter-spacing: 0.05em;
+    font-feature-settings: 'ss01' on, 'case' on;
+
+    color: #000000;
+    
+}
+
+#beneficio_3_texto_2{
+    position: absolute;
+    width: 128px;
+    height: 15px;
+    left: calc(50% - 128px/2 + 262.5px);
+    top: calc(50% - 15px/2 + 10.5px);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+
+    color: #8C8C8C;
+    
+}
+
 
 
 
