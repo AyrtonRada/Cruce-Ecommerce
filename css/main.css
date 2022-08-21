@@ -8532,4 +8532,397 @@ bottom: 11.02%;
 /*** 721 PX ***/
 @media screen and (min-width: 721px) {
     
+    /*** HEADER ***/
+
+#header_desk{
+    position: absolute;
+width: 1366px;
+height: 96px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+    /*** ENLACES ***/
+
+#enlaces{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+width: 477px;
+height: 36px;
+left: 24px;
+top: calc(50% - 36px/2);
+}
+
+ /*** ENLACES CATEGORIAS ***/
+
+#enlaces_categorias{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 141px;
+height: 36px;
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#enlaces_categorias_menu{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#enlaces_categorias_icono_menu{
+    position: absolute;
+left: 0%;
+right: 26.39%;
+top: 0%;
+bottom: 30.56%;
+}
+
+#enlaces_categorias_div_texto{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 105px;
+height: 18px;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#enlaces_categorias_texto{
+    width: 105px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** ENLACES LOL ***/
+
+#enlaces_LOL{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 18px;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#enlaces_LOL_texto{
+    width: 32px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** ENLACES CRYBABIES ***/
+
+#enlaces_cry_babies{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 96px;
+height: 18px;
+
+flex: none;
+order: 2;
+align-self: center;
+flex-grow: 0;
+}
+
+#enlaces_cry_babies_texto{
+    width: 96px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** ENLACES FUNKO ***/
+
+#enlaces_funko{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 54px;
+height: 18px;
+
+flex: none;
+order: 3;
+align-self: center;
+flex-grow: 0;
+}
+
+#enlaces_funko_texto{
+    width: 54px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** ENLACES HOTSALE ***/
+
+#enlaces_hot_sale{
+    width: 82px;
+height: 24px;
+
+flex: none;
+order: 4;
+align-self: center;
+flex-grow: 0;
+}
+
+#enlaces_hot_sale_div_texto{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3px 0px;
+
+position: absolute;
+width: 82px;
+height: 24px;
+top: calc(50% - 24px/2);
+
+border: 2px solid #EC2227;
+}
+
+#enlaces_hot_sale_texto{
+    width: 70px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EC2227;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** ACCIONES ***/
+
+#acciones{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+width: 155px;
+height: 36px;
+right: 24px;
+top: calc(50% - 36px/2);
+
+}
+
+    /*** ACCIONES BUSCADOR ***/
+
+#acciones_buscador{
+    width: 36px;
+height: 36px;
+
+border: 1px solid #C8C8C8;
+border-radius: 18px;
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#acciones_buscador_lupa{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 3px;
+top: calc(50% - 30px/2);
+
+}
+
+#acciones_buscador_icono_lupa{
+    position: absolute;
+left: 22.21%;
+right: 25%;
+top: 25%;
+bottom: 22.22%;
+
+}
+
+    /*** ACCIONES USUARIO ***/
+
+#acciones_usuario{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 1;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#acciones_icono_usuario{
+    position: absolute;
+left: 41.22%;
+right: 22.22%;
+top: 19.44%;
+bottom: 19.44%;
+}
+
+    /*** ACCIONES CARRITO ***/
+
+#acciones_carrito{
+    width: 47px;
+height: 36px;
+
+flex: none;
+order: 3;
+align-self: center;
+flex-grow: 0;
+}
+
+#acciones_carrito_div_icono{
+    position: absolute;
+width: 36px;
+height: 36px;
+right: 11px;
+top: calc(50% - 36px/2);
+}
+
+#acciones_carrito_icono{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+#acciones_carrito_texto{
+    position: absolute;
+width: 12px;
+height: 18px;
+right: 0px;
+top: calc(50% - 18px/2 + 8px);
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+}
+
+
+
+
+
+
 }
