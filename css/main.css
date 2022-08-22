@@ -12658,9 +12658,484 @@ top: 22.22%;
 bottom: 16.67%;
 }
 
+    /*** BUSCADOS DESK ***/
+#buscados_desk{
+    position: absolute;
+width: 1272px;
+height: 108px;
+left: 48px;
+top: 2356px;
 
+}
 
+/*** BUSCADOS DESK HEAD ***/
 
+#buscados_desk_head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
 
+position: absolute;
+width: 192px;
+height: 60px;
+left: 0px;
+top: calc(50% - 60px/2);
+}
 
+#buscados_desk_head_texto{
+    width: 192px;
+height: 60px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 30px;
+
+font-feature-settings: 'zero' on;
+
+color: #76B043;
+
+lex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** BUSCADOS DESK SUGERENCIA 1 ***/
+
+#buscados_desk_sugerencia_1{
+    position: absolute;
+left: 16.98%;
+right: 67.92%;
+top: 0%;
+bottom: 0%;
+}
+
+#buscados_desk_sug_1_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscados_desk_sug_1_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+
+}
+
+#buscados_desk_sug_1_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscados_desk_sug_1_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_1_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_1_texto{
+    position: absolute;
+    height: 30px;
+    left: 79px;
+    right: 0px;
+    top: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  
+    font-feature-settings: 'ss01' on, 'case' on;
+}
+
+/*** BUSCADOS DESK SUGERENCIA 2 ***/
+
+#buscados_desk_sugerencia_2{
+    position: absolute;
+left: 50.94%;
+right: 33.96%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscados_desk_sug_2_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscados_desk_sug_2_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+
+}
+
+#buscados_desk_sug_2_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscados_desk_sug_2_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_2_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_2_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+}
+
+/*** BUSCADOS DESK SUGERENCIA 3 ***/
+
+#buscados_desk_sugerencia_3{
+    position: absolute;
+    left: 84.91%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+}
+
+#buscados_desk_sug_3_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscados_desk_sug_3_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+
+}
+
+#buscados_desk_sug_3_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscados_desk_sug_3_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_3_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscados_desk_sug_3_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+}
+
+/*** BUSCADOS DESK SUGERENCIA 4 ***/
+
+#buscados_desk_sugerencia_4{
+    position: absolute;
+left: 33.96%;
+right: 50.94%;
+top: 0%;
+bottom: 0%;
+
+    
+}
+
+#buscados_desk_sug_4_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscados_desk_sug_4_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#buscados_desk_sug_4_precio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 78px;
+    bottom: 18px;
+}
+
+#buscados_desk_sug_4_precio_texto_1{
+    width: 48px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+}
+
+#buscados_desk_sug_4_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+}
+
+/*** BUSCADOS DESK SUGERENCIA 5 ***/
+
+#buscados_desk_sugerencia_5{
+    position: absolute;
+    left: 67.92%;
+    right: 16.98%;
+    top: 0%;
+    bottom: 0%;
+    
+}
+
+#buscados_desk_sug_5_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscados_desk_sug_5_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#buscados_desk_sug_5_precio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 78px;
+    bottom: 18px;
+}
+
+#buscados_desk_sug_5_precio_texto_1{
+    width: 48px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    letter-spacing: 0.01em;
+    font-feature-settings: 'ss01' on, 'case' on;
+}
+
+#buscados_desk_sug_5_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+}
 }
