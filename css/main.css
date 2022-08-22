@@ -16200,6 +16200,1239 @@ top: 22.22%;
 bottom: 16.67%;
 }
 
+    /*** CAMPAÑA DESK ***/
+
+#campana_desk{
+    position: absolute;
+width: 1270px;
+height: 588px;
+left: 48px;
+top: 3304px;
+
+}
+
+/*** CAMPAÑA BANNER 1 ***/
+
+#campana_desk_banner_1{
+    position: absolute;
+width: 946px;
+height: 473px;
+left: 0px;
+top: 0px;
+}
+
+#campana_desk_banner_1_img{
+    position: absolute;
+left: 0%;
+right: 25.51%;
+top: 0%;
+bottom: 19.56%;
+}
+
+/*** CAMPAÑA BANNER 2 ***/
+
+#campana_desk_banner_2{
+    position: absolute;
+width: 408px;
+height: 408px;
+left: 292px;
+top: 53px;
+
+}
+
+#campana_desk_banner_2_img{
+    position: absolute;
+left: 33.94%;
+right: 33.94%;
+top: 30.61%;
+bottom: 0%;
+}
+
+/*** CAMPAÑA DESK ARTICULOS ***/
+
+#campana_desk_art{
+    position: absolute;
+    width: 240px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+#campana_desk_art_texto{
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 0px;
+    bottom: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+   
+    display: flex;
+    align-items: flex-end;
+}
+
+/*** CAMPAÑA DESK CONTROLES ***/
+
+#campana_desk_controles{
+    position: absolute;
+width: 120px;
+height: 48px;
+right: 0px;
+bottom: 0px;
+}
+
+/*** CONTROL DESK IZQUIERDO ***/
+
+#campana_desk_controles_izq{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: calc(50% - 48px/2);
+ 
+    background: #FFFFFF;
+ 
+    border: 1px solid #C8C8C8;
+    border-radius: 24px;
+}
+
+#campana_desk_controles_izq_div_drop{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#campana_desk_controles_izq_drop{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#campana_desk_controles_izq_icono{
+    position: absolute;
+left: 24.48%;
+right: 37.48%;
+top: 11.76%;
+bottom: 27.76%;
+
+}
+
+/*** CAMPANA DESK CONTROL DERECHO ***/
+
+#campana_desk_controles_der{
+    position: absolute;
+width: 48px;
+height: 48px;
+right: 0px;
+top: calc(50% - 48px/2);
+
+background: #FFFFFF;
+
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
+
+#campana_desk_controles_der_div_drop{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#campana_desk_controles_der_drop{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#campana_desk_controles_der_icono{
+    position: absolute;
+left: -12.48%;
+right: 37.48%;
+top: -18.77%;
+bottom: 27.76%;
+}
+
+/*** CAMAPAÑA DESK SLIDE ***/
+
+#campana_desk_slide{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 78px;
+overflow-x: scroll;
+
+}
+
+#campana_desk_slide_art{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 768px;
+height: 510px;
+left: 0px;
+top: 0px;
+}
+
+#campana_desk_slide_art_jansport{
+    width: 768px;
+height: 510px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/*** CAMPAÑA DESK ARTICULO 1 ***/
+
+#campana_desk_art_1{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#campana_desk_art_1_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#campana_desk_art_1_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#campana_desk_art_1_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#campana_desk_art_1_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#campana_desk_art_1_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#campana_desk_art_1_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_1_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CAMPAÑA ARTICULO 1 - BOTON ***/
+
+#campana_desk_art_1_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#campana_desk_art_1_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_1_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#campana_desk_art_1_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CAMPAÑA DESK ARTICULO 2 ***/
+
+#campana_desk_art_2{
+    position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 0%;
+bottom: 0%;
+}
+
+#campana_desk_art_2_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#campana_desk_art_2_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#campana_desk_art_2_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#campana_desk_art_2_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#campana_desk_art_2_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#campana_desk_art_2_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_2_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CAMPAÑA ARTICULO 2 - BOTON ***/
+
+#campana_desk_art_2_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#campana_desk_art_2_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_2_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#campana_desk_art_2_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CAMPAÑA DESK ARTICULO 3 ***/
+
+#campana_desk_art_3{
+    position: absolute;
+left: 68.75%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#campana_desk_art_3_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#campana_desk_art_3_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#campana_desk_art_3_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#campana_desk_art_3_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#campana_desk_art_3_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#campana_desk_art_3_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_3_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CAMPAÑA ARTICULO 3 - BOTON ***/
+
+#campana_desk_art_3_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#campana_desk_art_3_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#campana_desk_art_3_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#campana_desk_art_3_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+
+
+
+
+
 
 
 
