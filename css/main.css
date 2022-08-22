@@ -12698,7 +12698,7 @@ font-feature-settings: 'zero' on;
 
 color: #76B043;
 
-lex: none;
+flex: none;
 order: 0;
 flex-grow: 0;
 }
@@ -13138,4 +13138,3071 @@ line-height: 15px;
 
 font-feature-settings: 'ss01' on, 'case' on;
 }
+
+   /*** CARRUSEL DESK ***/
+
+   #carrusel_desk{
+    position: absolute;
+    width: 1318px;
+height: 624px;
+left: 48px;
+right: 48px;
+top: 2584px;
+
+border-radius: 12px;
+}
+
+#carrusel_desk_texto{
+    position: absolute;
+    width: 53px;
+    height: 18px;
+    right: 0px;
+    bottom: -3px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+   
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+    /*** CARRUSEL DESK HEAD ***/
+
+#carrusel_desk_head{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 262px;
+height: 36px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_head_texto{
+    width: 193px;
+height: 36px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 36px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'zero' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_head_boton{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 57px;
+height: 12px;
+
+flex: none;
+order: 1;
+align-self: flex-end;
+flex-grow: 0;
+}
+
+#carrusel_desk_head_boton_texto{
+    width: 57px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    /*** CARRUSEL DESK SLIDE ***/
+
+#carrusel_desk_slide{
+    position: absolute;
+    height: 510px;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    overflow-x: scroll;
+}
+
+#carrusel_desk_slide_art{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 84px;
+    
+    position: absolute;
+    width: 2508px;
+    height: 510px;
+    top: 0px;
+}
+
+/*** CARRUSEL ARTICULO 1 ***/
+
+#carrusel_desk_art_1{
+    width: 240px;
+    height: 510px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_1_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_1_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_1_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#carrusel_desk_art_1_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_1_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_1_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 1 - BOTON ***/
+
+#carrusel_desk_art_1_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_1_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_1_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#carrusel_desk_art_1_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CONTROLES CARRUSEL DESK ***/
+
+#carrusel_desk_controles{
+    position: absolute;
+width: 120px;
+height: 48px;
+left: 0px;
+bottom: 0px;
+
+}
+
+/*** CONTROL CARRUSEL DESK IZQUIERDO ***/
+
+#carrusel_desk_controles_izq{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: calc(50% - 48px/2);
+      
+    background: #FFFFFF;
+
+    border: 1px solid #C8C8C8;
+    border-radius: 24px;
+}
+
+#carrusel_desk_controles_izq_div_drop{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#carrusel_desk_controles_izq_drop{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#carrusel_desk_controles_izq_icono{
+    position: absolute;
+left: 26.48%;
+right: 37.48%;
+top: 14.76%;
+bottom: 27.76%;
+}
+
+/*** CONTROL CARRUSEL DERECHO ***/
+
+#carrusel_desk_controles_der{
+    position: absolute;
+width: 48px;
+height: 48px;
+right: 0px;
+top: calc(50% - 48px/2);
+
+background: #FFFFFF;
+
+border: 1px solid #C8C8C8;
+border-radius: 24px;
+}
+
+#carrusel_desk_controles_der_div_drop{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 6px;
+top: 6px;
+
+}
+
+#carrusel_desk_controles_der_drop{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#carrusel_desk_controles_der_icono{
+    position: absolute;
+left: -18.48%;
+right: 37.48%;
+top: -18.77%;
+bottom: 27.76%;
+}
+
+/*** CARRUSEL ARTICULO 2 ***/
+
+#carrusel_desk_art_2{
+    width: 240px;
+height: 510px;
+
+background: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 340px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_2_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_2_img_producto{
+    position: absolute;
+    left: 0px;
+    right: 15px;
+    top: 0px;
+    bottom: 216px;
+}
+
+#carrusel_desk_art_2_div_ficha{
+    position: absolute;
+height: 192px;
+left: 340px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_2_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_2_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 2 - BOTON ***/
+
+#carrusel_desk_art_2_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_2_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_2_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 150px;
+
+}
+
+#carrusel_desk_art_2_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 3 ***/
+
+#carrusel_desk_art_3{
+    width: 240px;
+    height: 510px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_3_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 660px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_3_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_3_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#carrusel_desk_art_3_div_ficha{
+    position: absolute;
+height: 192px;
+left: 660px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_3_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_3_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 3 - BOTON ***/
+
+#carrusel_desk_art_3_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_3_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_3_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#carrusel_desk_art_3_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 4 ***/
+
+#carrusel_desk_art_4{
+    width: 240px;
+height: 510px;
+
+background: #FFFFFF;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_promo{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 970px;
+bottom: 210px;
+z-index: 1;
+border-radius: 6px;
+}
+
+#carrusel_desk_art_4_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 36px;
+height: 18px;
+left: calc(50% - 36px/2 + 6px);
+top: calc(50% - 18px/2 + -3px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#carrusel_desk_art_4_desc_texto_1{
+    width: 23px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_desc_texto_2{
+    width: 13px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+#carrusel_desk_art_4_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 970px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_4_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_4_img_producto{
+    position: absolute;
+    left: 0px;
+    right: 15px;
+    top: 0px;
+    bottom: 216px;
+}
+
+#carrusel_desk_art_4_div_ficha{
+    position: absolute;
+height: 192px;
+left: 970px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_4_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_4_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 4 - BOTON ***/
+
+#carrusel_desk_art_4_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_4_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_4_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 150px;
+
+}
+
+#carrusel_desk_art_4_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 5 ***/
+
+#carrusel_desk_art_5{
+    width: 240px;
+    height: 510px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_5_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 1320px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_5_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_5_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#carrusel_desk_art_5_div_ficha{
+    position: absolute;
+height: 192px;
+left: 1320px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_5_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_5_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 5 - BOTON ***/
+
+#carrusel_desk_art_5_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_5_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_5_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#carrusel_desk_art_5_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 6 ***/
+
+#carrusel_desk_art_6{
+    width: 240px;
+height: 510px;
+
+background: #FFFFFF;
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 1630px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_6_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_6_img_producto{
+    position: absolute;
+    left: 0px;
+    right: 15px;
+    top: 0px;
+    bottom: 216px;
+}
+
+#carrusel_desk_art_6_div_ficha{
+    position: absolute;
+height: 192px;
+left: 1630px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_6_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_6_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 6 - BOTON ***/
+
+#carrusel_desk_art_6_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_6_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_6_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 150px;
+
+}
+
+#carrusel_desk_art_6_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 7 ***/
+
+#carrusel_desk_art_7{
+    width: 240px;
+    height: 510px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_7_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 1960px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_7_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_7_img_producto{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: calc(50% - 210px/2);
+top: 6px;
+}
+
+#carrusel_desk_art_7_div_ficha{
+    position: absolute;
+height: 192px;
+left: 1960px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_7_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 174px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_7_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 114px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 7 - BOTON ***/
+
+#carrusel_desk_art_7_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_7_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_7_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 130px;
+
+}
+
+#carrusel_desk_art_7_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** CARRUSEL ARTICULO 8 ***/
+
+#carrusel_desk_art_8{
+    width: 240px;
+height: 510px;
+
+background: #FFFFFF;
+
+flex: none;
+order: 7;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 2280px;
+top: 6px;
+
+}
+
+#carrusel_desk_art_8_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_8_img_producto{
+    position: absolute;
+    left: 0px;
+    right: 15px;
+    top: 0px;
+    bottom: 216px;
+}
+
+#carrusel_desk_art_8_div_ficha{
+    position: absolute;
+height: 192px;
+left: 2280px;
+right: 15px;
+bottom: 12px;
+}
+
+#carrusel_desk_art_8_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#carrusel_desk_art_8_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_texto_2{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 98px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** CARRUSEL ARTICULO 8 - BOTON ***/
+
+#carrusel_desk_art_8_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#carrusel_desk_art_8_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#carrusel_desk_art_8_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 150px;
+
+}
+
+#carrusel_desk_art_8_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+
+
+
+
+
 }
