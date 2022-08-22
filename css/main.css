@@ -17428,14 +17428,591 @@ top: 22.22%;
 bottom: 16.67%;
 }
 
+    /*** BUSCADOR + TIMER DESK ***/
 
+#buscador_timer_desk{
+    position: absolute;
+width: 1272px;
+height: 108px;
+left: 48px;
+top: 4012px;
+}
 
+/*** BUSCADOR + TIMER DESK HEAD ***/
 
+#buscador_timer_desk_head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
 
+position: absolute;
+width: 192px;
+height: 84px;
+left: 0px;
+top: calc(50% - 84px/2);
+}
 
+#buscador_timer_desk_head_texto{
+    
+width: 192px;
+height: 30px;
 
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 30px;
 
+font-feature-settings: 'zero' on;
 
+color: #505050;
 
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_contador{
+    width: 137px;
+height: 48px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_contador_texto{
+    position: absolute;
+left: 0%;
+right: 28.65%;
+top: 42.86%;
+bottom: 21.43%;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 27px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'zero' on;
+
+color: #EC2227;
+}
+
+#buscador_timer_desk_contador_ref{
+    position: absolute;
+left: 0%;
+right: 28.65%;
+top: 78.57%;
+bottom: 0%;
+}
+
+#buscador_timer_desk_contador_ref_texto_1{
+    position: absolute;
+left: 57.81%;
+right: 28.65%;
+top: 78.57%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: right;
+}
+
+#buscador_timer_desk_contador_ref_texto_2{
+    position: absolute;
+left: 29.17%;
+right: 57.29%;
+top: 78.57%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#buscador_timer_desk_contador_ref_texto_3{
+    position: absolute;
+left: 0%;
+right: 89.06%;
+top: 78.57%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+}
+
+/*** BUSCADOR + TIMER DESK ARTICULO 1 ***/
+
+#buscador_timer_desk_sug_1{
+    position: absolute;
+left: 16.98%;
+right: 67.92%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscador_timer_desk_sug_1_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscador_timer_desk_sug_1_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#buscador_timer_desk_sug_1_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscador_timer_desk_sug_1_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_1_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_1_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
+
+/*** BUSCADOR + TIMER DESK ARTICULO 3 ***/
+
+#buscador_timer_desk_sug_3{
+    position: absolute;
+left: 50.94%;
+right: 33.96%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscador_timer_desk_sug_3_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscador_timer_desk_sug_3_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#buscador_timer_desk_sug_3_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscador_timer_desk_sug_3_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_3_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_3_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
+
+/*** BUSCADOR + TIMER DESK ARTICULO 5 ***/
+
+#buscador_timer_desk_sug_5{
+    position: absolute;
+left: 84.91%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscador_timer_desk_sug_5_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscador_timer_desk_sug_5_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: calc(50% - 72px/2);
+}
+
+#buscador_timer_desk_sug_5_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 45px;
+height: 30px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscador_timer_desk_sug_5_precio_texto_1{
+    width: 42px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_5_precio_texto_2{
+    width: 45px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_5_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
+
+/*** BUSCADOR + TIMER DESK ARTICULO 2 ***/
+
+#buscador_timer_desk_sug_2{
+    position: absolute;
+left: 33.96%;
+right: 50.94%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscador_timer_desk_sug_2_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscador_timer_desk_sug_2_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#buscador_timer_desk_sug_2_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 48px;
+height: 15px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscador_timer_desk_sug_2_precio_texto{
+    width: 48px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_2_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
+
+/*** BUSCADOR + TIMER DESK ARTICULO 4 ***/
+
+#buscador_timer_desk_sug_4{
+    position: absolute;
+left: 67.92%;
+right: 16.98%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#buscador_timer_desk_sug_4_div_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 18px;
+
+}
+
+#buscador_timer_desk_sug_4_img{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+#buscador_timer_desk_sug_4_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 48px;
+height: 15px;
+left: 78px;
+bottom: 18px;
+}
+
+#buscador_timer_desk_sug_4_precio_texto{
+    width: 48px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#buscador_timer_desk_sug_4_texto{
+    position: absolute;
+height: 30px;
+left: 79px;
+right: 0px;
+top: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
 
 }
