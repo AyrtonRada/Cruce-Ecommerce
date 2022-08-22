@@ -9183,7 +9183,2414 @@ bottom: 19.44%;
     
 }
 
+    /*** NO SE MOSTRARA ***/
 
+
+    #header_mobile, #top_banner, #buscador, #temporada, #marcas,
+    #beneficios, #dia, #buscados, #carrusel, #campana, #buscados_2,
+    #rec_carrusel, #volver, #pie{
+        display: none;
+    }
+
+    /*** TEMPORADA DESK ***/
+
+#temporada_desk{
+    position: absolute;
+width: 1270px;
+height: 1152px;
+left: 48px;
+top: 198px;
+
+}
+    /*** TEMPORADA ARTICULO 1 ***/
+
+#temp_desk_art_1{
+    position: absolute;
+left: 4.72%;
+right: 76.38%;
+top: 0%;
+bottom: 55.73%;
+
+background: #FFFFFF;
+}
+
+#temp_desk_art_1_promo{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+bottom: 210px;
+z-index: 1;
+border-radius: 6px;
+}
+
+#temp_desk_art_1_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 36px;
+height: 18px;
+left: calc(50% - 36px/2 + 6px);
+top: calc(50% - 18px/2 + -3px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#temp_desk_art_1_desc_texto_1{
+    width: 23px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_desc_texto_2{
+    width: 13px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+#temp_desk_art_1_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#temp_desk_art_1_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#temp_desk_art_1_img_producto{
+    position: absolute;
+left: 0px;
+right: 15px;
+top: 0px;
+bottom: 216px;
+}
+
+#temp_desk_art_1_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#temp_desk_art_1_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#temp_desk_art_1_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_1_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_texto_2{
+    width: 210px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 155px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULO 1 - BOTON ***/
+
+#temp_desk_art_1_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#temp_desk_art_1_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_1_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 12px;
+top: 150px;
+
+}
+
+#temp_desk_art_1_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+    /*** TEMPORADA ARTICULO 2 ***/
+
+    #temp_desk_art_2{
+        position: absolute;
+        left: 30.24%;
+        right: 50.87%;
+        top: 55.73%;
+        bottom: 0%;
+    
+    background: #FFFFFF;
+    }
+    
+    #temp_desk_art_2_promo{
+        position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 12px;
+    bottom: 210px;
+    z-index: 1;
+    border-radius: 6px;
+    }
+    
+    #temp_desk_art_2_desc{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 36px;
+    height: 18px;
+    left: calc(50% - 36px/2 + 6px);
+    top: calc(50% - 18px/2 + -3px);
+    z-index: 2;
+    
+    transform: rotate(-15deg);
+    }
+    
+    #temp_desk_art_2_desc_texto_1{
+        width: 23px;
+    height: 18px;
+    
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    font-feature-settings: 'ss01' on, 'case' on;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-15deg);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_desc_texto_2{
+        width: 13px;
+    height: 12px;
+    
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-feature-settings: 'ss01' on, 'case' on;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-15deg);
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_icono_desc{
+        position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    }
+    
+    #temp_desk_art_2_div_img{
+        position: absolute;
+    width: 210px;
+    height: 288px;
+    left: 15px;
+    top: 6px;
+    
+    }
+    
+    #temp_desk_art_2_img{
+        position: absolute;
+    width: 210px;
+    height: 288px;
+    left: 0px;
+    top: 0px;
+    }
+    
+    #temp_desk_art_2_img_producto{
+        position: absolute;
+    left: 0px;
+    right: 15px;
+    top: 0px;
+    bottom: 216px;
+    }
+    
+    #temp_desk_art_2_div_ficha{
+        position: absolute;
+    height: 192px;
+    left: 15px;
+    right: 15px;
+    bottom: 12px;
+    }
+    
+    #temp_desk_art_2_ficha{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    position: absolute;
+    height: 192px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    }
+    
+    #temp_desk_art_2_data{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 210px;
+    height: 132px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_art{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        
+        width: 210px;
+        height: 54px;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_texto_1{
+        width: 210px;
+    height: 18px;
+    
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    
+    letter-spacing: 0.05em;
+    font-feature-settings: 'ss01' on, 'case' on;
+    
+    color: #7D5A94;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_texto_2{
+        width: 210px;
+    height: 36px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 210px;
+    height: 66px;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_cuota{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        
+        width: 210px;
+        height: 42px;
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_cuota_texto_1{
+        width: 210px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    display: flex;
+    
+    color: #505050;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_cuota_texto_2{
+        width: 210px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_final{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 155px;
+    height: 18px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_final_texto_1{
+        width: 38px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_final_texto_2{
+        width: 51px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    
+    color: #8C8C8C;
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_data_precio_final_texto_3{
+        width: 54px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'ordn' on, 'liga' off;
+
+    color: #EC2227;
+    
+    flex: none;
+    order: 2;
+    align-self: flex-start;
+    flex-grow: 0;
+    }
+    
+    /*** ARTICULO 2 - BOTON ***/
+    
+    #temp_desk_art_2_boton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 12px;
+        gap: 10px;
+        
+        width: 60px;
+        height: 48px;
+        
+        background: #FFFFFF;
+    
+        border: 2px solid #76B043;
+        border-radius: 6px;
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_boton_contenido{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 36px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_boton_contenido_carro{
+        width: 36px;
+    height: 36px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    #temp_desk_art_2_boton_contenido_carrito{
+        position: absolute;
+    width: 36px;
+    height: 36px;
+    
+    }
+    
+    #temp_desk_art_2_boton_icono_carrito{
+        position: absolute;
+    left: 11.11%;
+    right: 16.67%;
+    top: 22.22%;
+    bottom: 16.67%;
+    }
+
+/*** TEMPORADA ARTICULO 3 ***/
+
+#temp_desk_art_3{
+    position: absolute;
+left: 55.59%;
+right: 25.51%;
+top: 47.4%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+}
+
+#temp_desk_art_3_promo{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 12px;
+bottom: 210px;
+z-index: 1;
+border-radius: 6px;
+}
+
+#temp_desk_art_3_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 36px;
+height: 18px;
+left: calc(50% - 36px/2 + 6px);
+top: calc(50% - 18px/2 + -3px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#temp_desk_art_3_desc_texto_1{
+    width: 23px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_desc_texto_2{
+    width: 13px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+#temp_desk_art_3_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#temp_desk_art_3_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#temp_desk_art_3_img_producto{
+    position: absolute;
+left: 0px;
+right: 15px;
+top: 0px;
+bottom: 216px;
+}
+
+#temp_desk_art_3_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#temp_desk_art_3_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#temp_desk_art_3_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_3_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_texto_2{
+    width: 210px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 155px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULO 3 - BOTON ***/
+
+#temp_desk_art_3_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#temp_desk_art_3_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_3_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+
+}
+
+#temp_desk_art_3_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** TEMPORADA ARTICULO 4 ***/
+
+#temp_desk_art_4{
+    position: absolute;
+    left: 30.24%;
+    right: 50.87%;
+    top: 8.33%;
+    bottom: 47.4%;
+
+background: #FFFFFF;
+}
+
+
+#temp_desk_art_4_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#temp_desk_art_4_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#temp_desk_art_4_img_producto{
+    position: absolute;
+left: 0px;
+right: 15px;
+top: 0px;
+bottom: 216px;
+}
+
+#temp_desk_art_4_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#temp_desk_art_4_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#temp_desk_art_4_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_4_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_texto_2{
+    width: 210px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 155px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULO 4 - BOTON ***/
+
+#temp_desk_art_4_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#temp_desk_art_4_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_4_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+
+}
+
+#temp_desk_art_4_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** TEMPORADA ARTICULO 5 ***/
+
+#temp_desk_art_5{
+    position: absolute;
+left: 4.72%;
+right: 76.38%;
+top: 47.4%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+}
+
+
+#temp_desk_art_5_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#temp_desk_art_5_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#temp_desk_art_5_img_producto{
+    position: absolute;
+left: 0px;
+right: 15px;
+top: 0px;
+bottom: 216px;
+}
+
+#temp_desk_art_5_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#temp_desk_art_5_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#temp_desk_art_5_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_5_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_texto_2{
+    width: 210px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 155px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULO 4 - BOTON ***/
+
+#temp_desk_art_5_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#temp_desk_art_5_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_5_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+
+}
+
+#temp_desk_art_5_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+/*** TEMPORADA ARTICULO 6 ***/
+
+#temp_desk_art_6{
+    position: absolute;
+    left: 81.1%;
+    right: 0%;
+    top: 55.73%;
+    bottom: 0%;
+    
+background: #FFFFFF;
+}
+
+
+#temp_desk_art_6_div_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 15px;
+top: 6px;
+
+}
+
+#temp_desk_art_6_img{
+    position: absolute;
+width: 210px;
+height: 288px;
+left: 0px;
+top: 0px;
+}
+
+#temp_desk_art_6_img_producto{
+    position: absolute;
+left: 0px;
+right: 15px;
+top: 0px;
+bottom: 216px;
+}
+
+#temp_desk_art_6_div_ficha{
+    position: absolute;
+height: 192px;
+left: 15px;
+right: 15px;
+bottom: 12px;
+}
+
+#temp_desk_art_6_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 192px;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+
+#temp_desk_art_6_data{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 132px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_art{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 54px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_6_data_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_texto_2{
+    width: 210px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 210px;
+height: 66px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_cuota{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 210px;
+    height: 42px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_cuota_texto_1{
+    width: 210px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_cuota_texto_2{
+    width: 210px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_final{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 155px;
+height: 18px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_final_texto_1{
+    width: 38px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_final_texto_2{
+    width: 51px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_data_precio_final_texto_3{
+    width: 54px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+/*** ARTICULO 6 - BOTON ***/
+
+#temp_desk_art_6_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 10px;
+    
+    width: 60px;
+    height: 48px;
+    
+    background: #FFFFFF;
+
+    border: 2px solid #76B043;
+    border-radius: 6px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#temp_desk_art_6_boton_contenido{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_boton_contenido_carro{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#temp_desk_art_6_boton_contenido_carrito{
+    position: absolute;
+width: 36px;
+height: 36px;
+
+}
+
+#temp_desk_art_6_boton_icono_carrito{
+    position: absolute;
+left: 11.11%;
+right: 16.67%;
+top: 22.22%;
+bottom: 16.67%;
+}
+
+    /*** TEMPORADA CONTENIDO ***/
+
+#temp_desk_contenido{
+    position: absolute;
+width: 515px;
+height: 318px;
+left: 755px;
+top: 72px;
+}
+
+#temp_desk_contenido_texto_1{
+    position: absolute;
+height: 162px;
+right: 0px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 54px;
+
+letter-spacing: -0.03em;
+font-feature-settings: 'zero' on, 'liga' off;
+}
+
+#temp_desk_contenido_texto_2{
+    position: absolute;
+height: 48px;
+right: 0px;
+top: 188px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+}
+
+#temp_desk_boton_contenido{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 24px;
+gap: 10px;
+
+position: absolute;
+width: 175px;
+height: 48px;
+top: 272px;
+
+background: #F26522;
+
+border: 2px solid #000000;
+
+box-shadow: 3px 3px 0px #000000;
+border-radius: 6px;
+}
+
+#temp_desk_boton_contenido_texto{
+    width: 127px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+
+color: #FFFFFF;
+}
 
 
 
