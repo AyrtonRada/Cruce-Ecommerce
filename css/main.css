@@ -8528,6 +8528,17 @@ top: 45.11%;
 bottom: 11.02%;
 
 }
+
+/*** NO MOSTRAR LA PARTE DESK EN MOBILE ***/
+
+#header_desk, #top_banner_desk, #beneficios_desk, #temporada_desk,
+#whatsapp_desk, #marcas_desk, #dia_desk, #buscados_desk,
+#carrusel_desk, #campana_desk, #buscador_timer_desk, #rec_carrusel_desk,
+#volver_desk, #pie_desk{
+    display: none;
+} 
+
+
 }
 
 /*** 721 PX ***/
@@ -18022,6 +18033,7 @@ font-feature-settings: 'ss01' on, 'case' on;
 #rec_carrusel_desk{
     position: absolute;
 height: 624px;
+width: 1270px;
 left: 48px;
 right: 48px;
 top: 4240px;
@@ -20527,6 +20539,7 @@ gap: 60px;
 
 position: absolute;
 height: 228px;
+width: 1270px;
 left: 0px;
 right: 0px;
 top: 4996px;
@@ -20591,7 +20604,7 @@ flex-grow: 0;
 
 #pie_desk_social_ig_icono{
     position: absolute;
-left: 32.2%;
+left: 30.9%;
 right: 19.44%;
 top: 29.44%;
 bottom: 19.44%;
@@ -20663,7 +20676,7 @@ flex-grow: 0;
 
 #pie_desk_social_yb_icono{
     position: absolute;
-left: 32%;
+left: 30.9%;
 right: 13.89%;
 top: 47%;
 bottom: 25%;
@@ -20735,7 +20748,7 @@ flex-grow: 0;
 
 #pie_desk_social_fb_icono{
     position: absolute;
-left: 32.2%;
+left: 30.9%;
 right: 19.44%;
 top: 61.44%;
 bottom: 19.44%;
@@ -21015,21 +21028,5 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
