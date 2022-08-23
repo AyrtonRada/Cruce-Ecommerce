@@ -16378,6 +16378,7 @@ right: 0px;
 top: 0px;
 bottom: 78px;
 overflow-x: scroll;
+overflow-y: hidden;
 
 }
 
@@ -20515,9 +20516,505 @@ text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
 }
 
+    /*** PIE DESK ***/
 
+#pie_desk{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 36px;
+gap: 60px;
 
+position: absolute;
+height: 228px;
+left: 0px;
+right: 0px;
+top: 4996px;
+}
 
+/*** COLUMANAS PIE DESK***/
+
+#pie_desk_div_columnas{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 72px;
+
+width: 502px;
+height: 108px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_redes{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 112px;
+height: 108px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** INSTAGRAM DESK ***/
+
+#pie_desk_redes_ig{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 112px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_social_ig{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_social_ig_icono{
+    position: absolute;
+left: 32.2%;
+right: 19.44%;
+top: 29.44%;
+bottom: 19.44%;
+}
+
+#pie_desk_btn_ig{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 70px;
+height: 12px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_btn_ig_texto{
+    width: 70px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** YOUTUBE DESK ***/
+
+#pie_desk_redes_yb{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 94px;
+height: 36px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_social_yb{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_social_yb_icono{
+    position: absolute;
+left: 32%;
+right: 13.89%;
+top: 47%;
+bottom: 25%;
+}
+
+#pie_desk_btn_yb{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 52px;
+height: 12px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_btn_yb_texto{
+    width: 52px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** FACEBOOK ***/
+
+#pie_desk_redes_fb{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 102px;
+height: 36px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#pie_desk_social_fb{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_social_fb_icono{
+    position: absolute;
+left: 32.2%;
+right: 19.44%;
+top: 61.44%;
+bottom: 19.44%;
+}
+
+#pie_desk_btn_fb{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 60px;
+height: 12px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_btn_fb_texto{
+    width: 60px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** COLUMNA DESK 1 ***/
+
+#pie_desk_columna_1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 102px;
+height: 84px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 102px;
+height: 12px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_1_texto{
+    width: 102px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 82px;
+height: 12px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_2_texto{
+    width: 82px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_3{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 78px;
+height: 12px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#pie_desk_columna_1_btn_3_texto{
+    width: 78px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/*** PIE DESK COLUMNA 2 ***/
+
+#pie_desk_columna_2{
+    width: 144px;
+height: 87.5px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#pie_desk_columna_2_texto{
+    position: absolute;
+width: 111px;
+height: 12px;
+top: calc(50% - 12px/2 - 40px);
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+}
+
+#pie_desk_columna_2_input{
+    position: absolute;
+width: 144px;
+height: 30px;
+top: 92.25px;
+
+border: 1px solid #C8C8C8;
+border-radius: 3px;
+}
+
+#pie_desk_columna_2_input_texto{
+    
+position: absolute;
+height: 15px;
+left: 12px;
+right: 12px;
+top: calc(50% - 15px/2 + 0.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+}
+
+#pie_desk_columna_2_btn{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 9px 12px;
+
+position: absolute;
+width: 70px;
+height: 30px;
+left: calc(50% - 70px/2 + 142px);
+top: 130px;
+
+background: #FFFFFF;
+
+border: 2px solid #000000;
+
+box-shadow: 3px 3px 0px #000000;
+border-radius: 6px;
+}
+
+#pie_desk_columna_2_btn_texto{
+    width: 46px;
+height: 12px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
 
 
 
