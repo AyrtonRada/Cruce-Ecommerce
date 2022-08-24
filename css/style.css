@@ -282,25 +282,2540 @@ color: #505050;
 
 #ordenar_mobile_img_funko{
     position: absolute;
-left: -9.5%;
+left: 0%;
 right: 0%;
 bottom: 84.29%;
 
 width: 718px;
 height: 270px;
-top: 130px;
+top: 37.55%;
 
 }
 
+    /*** LISTA DE ARTICULOS MOBILE ***/
+
+#lista_mobile{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 666px;
+height: 3357px;
+left: 29.25px;
+top: 742.5px;
+}
+
+/*** ARTICULO 1 ***/
+
+#lista_mobile_art_1{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 0px;
 
 
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_1_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 6px;
+
+}
+
+#lista_mobile_art_1_promo{
+    position: absolute;
+width: 135px;
+height: 135px;
+left: 0px;
+bottom: 0px;
+
+border-radius: 12px;
+}
+
+#lista_mobile_art_1_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 81px;
+height: 40.5px;
+left: calc(50% - 84px/2 + 4px);
+top: calc(50% - 74.5px/2 + 5px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#lista_mobile_art_1_desc_texto_1{
+    width: 51.75px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_desc_texto_2{
+    width: 29.25px;
+height: 27px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+z-index: 1;
+}
+
+/*** IMAGEN ART 1***/
+
+#lista_mobile_art_1_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_1_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART1 ***/
+
+#lista_mobile_art_1_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 54px;
+
+}
+
+#lista_mobile_art_1_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
 
 
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_1_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 2 ***/
+
+#lista_mobile_art_2{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 424px;
 
 
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_2_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 430px;
+
+}
+
+/*** IMAGEN ART 2***/
+
+#lista_mobile_art_2_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_2_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 2 ***/
+
+#lista_mobile_art_2_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 484px;
+
+}
+
+#lista_mobile_art_2_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
 
 
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
 
+#lista_mobile_art_2_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_2_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 3 ***/
+
+#lista_mobile_art_3{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 854px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_3_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 860px;
+
+}
+
+/*** IMAGEN ART 3***/
+
+#lista_mobile_art_3_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_3_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 3 ***/
+
+#lista_mobile_art_3_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 914px;
+
+}
+
+#lista_mobile_art_3_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_3_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 4 ***/
+
+#lista_mobile_art_4{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 1278px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_4_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 1290px;
+
+}
+
+/*** IMAGEN ART 4***/
+
+#lista_mobile_art_4_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_4_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 4 ***/
+
+#lista_mobile_art_4_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 1344px;
+
+}
+
+#lista_mobile_art_4_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_4_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 5 ***/
+
+#lista_mobile_art_5{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 1702px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_5_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 1720px;
+
+}
+
+#lista_mobile_art_5_promo{
+    position: absolute;
+width: 135px;
+height: 135px;
+left: 0px;
+bottom: 0px;
+
+border-radius: 12px;
+}
+
+#lista_mobile_art_5_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 81px;
+height: 40.5px;
+left: calc(50% - 84px/2 + 4px);
+top: calc(50% - 74.5px/2 + 5px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#lista_mobile_art_5_desc_texto_1{
+    width: 51.75px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_desc_texto_2{
+    width: 29.25px;
+height: 27px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+z-index: 1;
+}
+
+/*** IMAGEN ART 5***/
+
+#lista_mobile_art_5_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_5_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART1 ***/
+
+#lista_mobile_art_5_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 1774px;
+
+}
+
+#lista_mobile_art_5_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_5_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 6 ***/ 
+
+#lista_mobile_art_6{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 2126px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_6_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 2150px;
+
+}
+
+/*** IMAGEN ART 6***/
+
+#lista_mobile_art_6_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_6_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 6 ***/
+
+#lista_mobile_art_6_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 2204px;
+
+}
+
+#lista_mobile_art_6_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_6_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 7 ***/
+
+#lista_mobile_art_7{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 2550px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_7_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 2580px;
+
+}
+
+#lista_mobile_art_7_promo{
+    position: absolute;
+width: 135px;
+height: 135px;
+left: 0px;
+bottom: 0px;
+
+border-radius: 12px;
+}
+
+#lista_mobile_art_7_desc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 81px;
+height: 40.5px;
+left: calc(50% - 84px/2 + 4px);
+top: calc(50% - 74.5px/2 + 5px);
+z-index: 2;
+
+transform: rotate(-15deg);
+}
+
+#lista_mobile_art_7_desc_texto_1{
+    width: 51.75px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: right;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_desc_texto_2{
+    width: 29.25px;
+height: 27px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #FFFFFF;
+
+transform: rotate(-15deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_icono_desc{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+z-index: 1;
+}
+
+/*** IMAGEN ART 7***/
+
+#lista_mobile_art_7_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_7_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 7 ***/
+
+#lista_mobile_art_7_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 2634px;
+
+}
+
+#lista_mobile_art_7_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_7_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/*** ARTICULO 8 ***/ 
+
+#lista_mobile_art_8{
+    width: 666px;
+height: 396px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_border{
+    position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 2974px;
+
+
+border: 1px solid #F0F0F0;
+transform: rotate(-180deg);
+}
+
+#lista_mobile_art_8_div_img{
+    position: absolute;
+width: 270px;
+height: 369px;
+left: 0px;
+top: 3010px;
+
+}
+
+/*** IMAGEN ART 8***/
+
+#lista_mobile_art_8_img{
+    position: absolute;
+width: 270px;
+height: 382.5px;
+left: 0px;
+top: 0px;
+}
+
+#lista_mobile_art_8_img_producto{
+    position: absolute;
+    width: 270px;
+    height: 359.5px;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+/*** FICHA ART 8 ***/
+
+#lista_mobile_art_8_div_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+height: 256.5px;
+left: 297px;
+right: 0px;
+top: 3064px;
+
+}
+
+#lista_mobile_art_8_ficha{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 108px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_texto_1{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #7D5A94;
+
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_texto_2{
+    width: 369px;
+height: 67.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 369px;
+height: 54px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_cuota{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 369px;
+height: 74.25px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_cuota_texto_1{
+    width: 369px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #505050;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_cuota_texto_2{
+    width: 369px;
+height: 40.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_final{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 127px;
+height: 33.75px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_final_texto_1{
+    width: 74.25px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_final_texto_2{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#lista_mobile_art_8_ficha_precio_final_texto_3{
+    width: 99px;
+height: 33.75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33.75px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #EC2227;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
 
 
 
