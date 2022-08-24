@@ -2817,7 +2817,273 @@ order: 2;
 flex-grow: 0;
 }
 
+#lista_mobile_art_8_border_2{
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: -15px;
+    
+    border: 2px solid #F0F0F0;
+    transform: rotate(-180deg);
+}
 
+    /*** PAGINADO MOBILE ***/
+
+#paginado_mobile{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 675px;
+height: 81px;
+left: 25px;
+top: 4207.5px;
+
+}
+
+/*** CONTROL IZQUIERDO ***/
+
+#paginado_mobile_control_izq{
+    width: 81px;
+height: 81px;
+
+background: #FFFFFF;
+
+border: 2px solid #F0F0F0;
+border-radius: 48px;
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#paginado_mobile_control_izq_div_icon{
+    position: absolute;
+width: 60.75px;
+height: 60.75px;
+left: 10.12px;
+top: 10.12px;
+
+}
+
+#paginado_mobile_control_izq_icon{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#paginado_mobile_control_izq_icono{
+    position: absolute;
+left: 21.76%;
+right: 27.78%;
+top: 26.54%;
+bottom: 30.54%;
+}
+
+/*** CONTROL DERECHO ***/
+
+#paginado_mobile_control_der{
+    width: 81px;
+height: 81px;
+
+background: #FFFFFF;
+
+border: 2px solid #F0F0F0;
+border-radius: 48px;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#paginado_mobile_control_der_div_icon{
+    position: absolute;
+width: 60.75px;
+height: 60.75px;
+top: 10.12px;
+
+}
+
+#paginado_mobile_control_der_icon{
+    position: absolute;
+left: 30.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+}
+
+#paginado_mobile_control_der_icono{
+    position: absolute;
+left: 27.78%;
+right: 27.76%;
+top: 26.54%;
+bottom: 30.54%;
+
+}
+
+/*** PAGINAS ***/
+
+#paginado_mobile_paginas{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 459px;
+height: 81px;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_1{
+    width: 81px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_2{
+    width: 81px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_4{
+    width: 81px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_5{
+    width: 81px;
+height: 40.5px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_select{
+    width: 81px;
+height: 81px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_3{
+    position: absolute;
+left: 41.18%;
+right: 41.18%;
+top: 25%;
+bottom: 25%;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+}
+
+#paginado_mobile_paginas_select_bg{
+    position: absolute;
+left: 44%;
+right: 44.18%;
+top: 0%;
+bottom: 0%;
+
+border: 4px solid #F26522;
+border-radius: 24px;
+}
 
 
 }
