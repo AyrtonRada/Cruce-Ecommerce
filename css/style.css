@@ -18,7 +18,7 @@ gap: 12px;
 position: absolute;
 width: 499.5px;
 height: 54px;
-left: calc(50% - 499.5px/2);
+left: 111px;
 top: 67px;
 
 }
@@ -137,7 +137,7 @@ flex-grow: 0;
     position: absolute;
     width: 612px;
     height: 81px;
-    left: calc(50% - 612px/2);
+    left: 55px;
     top: 175.5px;
     
     border: 4px solid #8C8C8C;
@@ -215,5 +215,94 @@ order: 1;
 align-self: center;
 flex-grow: 0;
 }
+
+    /*** ORDENAR MOBILE ***/
+
+#ordenar_mobile{
+    position: absolute;
+width: 612px;
+height: 81px;
+left: 55px;
+top: 283.5px;
+
+background: #FFFFFF;
+
+border: 4px solid #F0F0F0;
+border-radius: 6px;
+}
+
+#ordenar_mobile_div_drop{
+    position: absolute;
+width: 54px;
+height: 54px;
+right: 13.5px;
+top: calc(50% - 54px/2);
+}
+
+#ordenar_mobile_drop{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+#ordenar_mobile_icono{
+    position: absolute;
+left: 27.77%;
+right: 27.77%;
+top: 37.49%;
+bottom: 37.48%;
+
+}
+
+/*** ORDENAR MOBILE TEXTO ***/
+
+#ordenar_mobile_texto{
+    position: absolute;
+height: 40.5px;
+left: 20.25px;
+right: 67.5px;
+top: calc(50% - 40.5px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40.5px;
+
+display: flex;
+align-items: center;
+
+color: #505050;
+}
+
+/*** RODENAR MOBILE BANNER FUNKO ***/
+
+#ordenar_mobile_img_funko{
+    position: absolute;
+left: -9.5%;
+right: 0%;
+bottom: 84.29%;
+
+width: 718px;
+height: 270px;
+top: 130px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
