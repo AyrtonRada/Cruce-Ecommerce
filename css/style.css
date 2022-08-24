@@ -6542,12 +6542,271 @@ border: 3px solid #F0F0F0;
 border-radius: 6px;
 }
 
+    /*** PAGINADO DESK ***/
+
+#paginado_mobile{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 533px;
+right: 39.02%;
+top: 2646px;
+
+}
+
+/*** CONTROL IZQUIERDO ***/
+
+#paginado_mobile_control_izq{
+    width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+
+border: 1px solid #F0F0F0;
+border-radius: 24px;
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#paginado_mobile_control_izq_div_icon{
+    position: absolute;
+width: 27px;
+height: 27px;
+left: 4.5px;
+top: 4.5px;
+
+}
+
+#paginado_mobile_control_izq_icon{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#paginado_mobile_control_izq_icono{
+    position: absolute;
+left: 27.76%;
+right: 27.78%;
+top: 30.54%;
+bottom: 30.54%;
+width: 13px;
+height: 12px;
+
+}
+
+/*** PAGINAS ***/
+
+#paginado_mobile_paginas{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 204px;
+height: 36px;
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+/*** TEXTOS ***/
+
+#paginado_mobile_paginas_texto_1{
+    width: 36px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_2{
+    width: 36px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_select{
+    width: 36px;
+height: 36px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#paginado_mobile_paginas_texto_3{
+    position: absolute;
+left: 41.18%;
+right: 41.18%;
+top: 25%;
+bottom: 25%;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #000000;
+}
+
+#paginado_mobile_paginas_select_bg{
+    position: absolute;
+left: 41.18%;
+right: 41.18%;
+top: 0%;
+bottom: 0%;
+
+border: 2px solid #F26522;
+border-radius: 12px;
+}
+
+#paginado_mobile_paginas_texto_4{
+    width: 36px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
+
+color: #8C8C8C;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+#paginado_mobile_paginas_texto_5{
+    width: 36px;
+height: 18px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'ss01' on, 'case' on;
 
 
+color: #8C8C8C;
 
+flex: none;
+order: 4;
+flex-grow: 0;
+}
 
+/*** CONTROL DERECHO ***/
 
+#paginado_mobile_control_der{
+    width: 36px;
+height: 36px;
 
+background: #FFFFFF;
 
+border: 1px solid #F0F0F0;
+border-radius: 24px;
+
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+#paginado_mobile_control_der_div_icon{
+    position: absolute;
+width: 27px;
+height: 27px;
+top: 4.5px;
+
+}
+
+#paginado_mobile_control_der_icon{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+}
+
+#paginado_mobile_control_der_icono{
+    position: absolute;
+left: 27.78%;
+right: 27.76%;
+top: 30.54%;
+bottom: 30.54%;
+width: 13px;
+height: 12px;
+}
 
 }
