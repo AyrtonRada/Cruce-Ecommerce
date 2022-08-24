@@ -2828,7 +2828,60 @@ flex-grow: 0;
     transform: rotate(-180deg);
 }
 
-    /*** PAGINADO MOBILE ***/
+    /*** BOTON VOLVER ***/
+
+#volver_mobile{
+    position: absolute;
+right: 31.25%;
+bottom: 73.61%;
+
+width: 270px;
+height: 135px;
+top: 1021.5px;
+left: 225px;
+
+background: #FDB913;
+border-radius: 240px 240px 0px 0px;
+}
+
+#volver_mobile_flecha{
+    position: absolute;
+width: 81px;
+height: 81px;
+left: calc(50% - 81px/2);
+top: 0px;
+
+}
+
+#volver_mobile_flecha_icono{
+    position: absolute;
+left: 30.54%;
+right: 30.54%;
+top: 27.76%;
+bottom: 27.78%;
+
+}
+
+#volver_mobile_flecha_texto{
+    position: absolute;
+width: 81px;
+height: 27px;
+left: calc(50% - 81px/2);
+bottom: 27px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+font-feature-settings: 'ss01' on, 'case' on;
+}
+    
+/*** PAGINADO MOBILE ***/
 
 #paginado_mobile{
     display: flex;
@@ -2841,7 +2894,7 @@ position: absolute;
 width: 675px;
 height: 81px;
 left: 25px;
-top: 4207.5px;
+top: 4160.5px;
 
 }
 
