@@ -5072,7 +5072,7 @@ top: 13.5px;
 height: 369px;
 left: 33.75px;
 right: 33.75px;
-bottom: 27px;
+bottom: 85px;
 }
 
 #ficha_campana_2{
@@ -7830,6 +7830,7 @@ line-height: 40.5px;
 display: flex;
 align-items: center;
 text-align: center;
+justify-content: end;
 letter-spacing: 0.05em;
 font-feature-settings: 'ss01' on, 'case' on;
 
@@ -7867,6 +7868,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+justify-content: end;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -7953,6 +7955,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8025,6 +8028,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8097,6 +8101,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8170,6 +8175,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8208,6 +8214,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8246,6 +8253,7 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -8326,6 +8334,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 26px;
 line-height: 33.75px;
+border: none;
 
 display: flex;
 align-items: center;
@@ -8371,6 +8380,8 @@ text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
+background: #fff;
+border: none;
 
 color: #000000;
 
@@ -8402,7 +8413,7 @@ bottom: 54px;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 48px;
+gap:30px;
 
 width: 490.95px;
 height: 81px;
@@ -8429,7 +8440,7 @@ border: 4px solid #F0F0F0;
 transform: rotate(90deg);
 
 flex: none;
-order: 1;
+order: 0;
 flex-grow: 0;
 }
 
@@ -8450,13 +8461,18 @@ border: 4px solid #F0F0F0;
 transform: rotate(90deg);
 
 flex: none;
-order: 3;
+order: 0;
 flex-grow: 0;
 }
 
 #img_logo_hotsale_promo_pie{
     width: 99.45px;
 height: 81px;
+position: absolute;
+left: 83%;
+right: 0%;
+top: 0%;
+bottom: -0.01%;
 
 flex: none;
 order: 4;
