@@ -208,6 +208,8 @@ width: 67.5px;
 height: 67.5px;
 left: 12px;
 top: calc(50% - 67.5px/2);
+background: none;
+border: none;
 }
 
 #icon_lupa{
@@ -220,7 +222,7 @@ bottom: 22.22%;
 
 #sugerencia{
     position: absolute;
-width: 362.25px;
+width: 490px;
 height: 40.5px;
 left: 81px;
 top: calc(50% - 40.5px/2);
@@ -234,6 +236,7 @@ line-height: 40.5px;
 display: flex;
 align-items: center;
 color: #8C8C8C;
+border:none;
 }
 
 /*** ARTICULOS ***/
@@ -1839,6 +1842,7 @@ width: 55.08px;
 height: 54px;
 left: 13.5px;
 top: calc(50% - 54px/2);
+z-index: 2;
 
 background: #FFFFFF;
 
@@ -1856,9 +1860,9 @@ top: 6.75px;
 
 #drop_3{
     position: absolute;
-left: 12.5%;
+left: 0%;
 right: 12.5%;
-top: 12.5%;
+top: 0%;
 bottom: 12.5%;
 
 }
@@ -1877,6 +1881,7 @@ width: 55.08px;
 height: 54px;
 right: 13.5px;
 top: calc(50% - 54px/2);
+z-index: 2;
 
 background: #FFFFFF;
 
@@ -1888,7 +1893,7 @@ border-radius: 48px;
     position: absolute;
 left: 12.5%;
 right: 12.5%;
-top: 12.5%;
+top: 0%;
 bottom: 12.5%;
 
 }
@@ -8618,6 +8623,7 @@ height: 36px;
 flex: none;
 order: 0;
 align-self: flex-start;
+list-style: none;
 flex-grow: 0;
 }
 
@@ -8628,6 +8634,8 @@ height: 36px;
 flex: none;
 order: 0;
 flex-grow: 0;
+
+border:none;
 }
 
 #enlaces_categorias_icono_menu{
@@ -8636,6 +8644,10 @@ left: 0%;
 right: 26.39%;
 top: 0%;
 bottom: 30.56%;
+
+background: #fff;
+
+border:none;
 }
 
 #enlaces_categorias_div_texto{
@@ -8690,6 +8702,7 @@ flex: none;
 order: 1;
 align-self: center;
 flex-grow: 0;
+list-style: none;
 }
 
 #enlaces_LOL_texto{
@@ -8728,6 +8741,7 @@ height: 18px;
 
 flex: none;
 order: 2;
+list-style: none;
 align-self: center;
 flex-grow: 0;
 }
@@ -8769,6 +8783,7 @@ height: 18px;
 flex: none;
 order: 3;
 align-self: center;
+list-style: none;
 flex-grow: 0;
 }
 
@@ -8804,6 +8819,7 @@ height: 24px;
 flex: none;
 order: 4;
 align-self: center;
+list-style: none;
 flex-grow: 0;
 }
 
@@ -8874,6 +8890,8 @@ flex: none;
 order: 0;
 align-self: flex-start;
 flex-grow: 0;
+
+background: #fff;
 }
 
 #acciones_buscador_lupa{
@@ -8904,6 +8922,10 @@ flex: none;
 order: 1;
 align-self: flex-start;
 flex-grow: 0;
+
+background: none;
+
+border: none;
 }
 
 #acciones_icono_usuario{
@@ -8924,6 +8946,10 @@ flex: none;
 order: 3;
 align-self: center;
 flex-grow: 0;
+
+background: none;
+
+border: none;
 }
 
 #acciones_carrito_div_icono{
@@ -8983,6 +9009,10 @@ width: 30px;
 height: 30px;
 right: 24px;
 top: calc(50% - 30px/2);
+
+background: none;
+
+border: none;
 
 }
 
