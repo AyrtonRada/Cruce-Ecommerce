@@ -8585,11 +8585,12 @@ bottom: 11.02%;
     /*** HEADER ***/
 
 #header_desk{
-    position: absolute;
+    position: fixed;
 width: 1366px;
 height: 96px;
 left: 0px;
 top: 0px;
+z-index: 10;
 
 background: #FFFFFF;
 }
@@ -8635,6 +8636,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
+cursor: pointer;
 border:none;
 }
 
@@ -8698,11 +8700,16 @@ padding: 0px;
 width: 32px;
 height: 18px;
 
+cursor: pointer;
 flex: none;
 order: 1;
 align-self: center;
 flex-grow: 0;
 list-style: none;
+
+background: #fff;
+border: none;
+
 }
 
 #enlaces_LOL_texto{
@@ -8744,6 +8751,10 @@ order: 2;
 list-style: none;
 align-self: center;
 flex-grow: 0;
+
+cursor: pointer;
+background: #fff;
+border: none;
 }
 
 #enlaces_cry_babies_texto{
@@ -8780,11 +8791,15 @@ padding: 0px;
 width: 54px;
 height: 18px;
 
+cursor: pointer;
 flex: none;
 order: 3;
 align-self: center;
 list-style: none;
 flex-grow: 0;
+
+background: #fff;
+border: none;
 }
 
 #enlaces_funko_texto{
@@ -8821,6 +8836,10 @@ order: 4;
 align-self: center;
 list-style: none;
 flex-grow: 0;
+
+cursor: pointer;
+background: #fff;
+border: none;
 }
 
 #enlaces_hot_sale_div_texto{
@@ -8886,6 +8905,7 @@ height: 36px;
 border: 1px solid #C8C8C8;
 border-radius: 18px;
 
+cursor: pointer;
 flex: none;
 order: 0;
 align-self: flex-start;
@@ -8924,7 +8944,7 @@ align-self: flex-start;
 flex-grow: 0;
 
 background: none;
-
+cursor: pointer;
 border: none;
 }
 
@@ -8948,7 +8968,7 @@ align-self: center;
 flex-grow: 0;
 
 background: none;
-
+cursor: pointer;
 border: none;
 }
 
@@ -8994,12 +9014,12 @@ color: #EC2227;
     /*** TOP BANNER ***/
 
 #top_banner_desk{
-position: absolute;
+position: fixed;
 width: 1366px;
 height: 30px;
 left: 0px;
 top: 96px;
-
+z-index: 10;
 background: #7D5A94;
 }
 
@@ -9011,7 +9031,7 @@ right: 24px;
 top: calc(50% - 30px/2);
 
 background: none;
-
+cursor: pointer;
 border: none;
 
 }
@@ -9051,16 +9071,48 @@ color: #FFFFFF;
 flex-direction: row;
 align-items: center;
 padding: 18px 36px;
-gap: 24px;
+gap: 12px;
 
 position: absolute;
-width: 775px;
+width: 766px;
 height: 72px;
-left: calc(50% - 775px/2 + 0.5px);
+left: 296px;
 top: 126px;
 
 border-radius: 0px 0px 12px 12px;
 }
+    /*** BORDER 1 ***/
+
+#beneficios_border_1_desk{
+    width: 36px;
+height: 0px;
+
+border: 1px solid #C8C8C8;
+transform: rotate(-60deg);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+    /*** BORDER 2 ***/
+
+#beneficios_border_2_desk{
+    width: 36px;
+height: 0px;
+
+border: 1px solid #C8C8C8;
+transform: rotate(-60deg);
+height: 0px;
+width: 36px;
+left: 496px;
+top: 51.59px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
 
     /*** BENEFICIO 1 ***/
 
@@ -9659,6 +9711,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -10088,6 +10141,7 @@ bottom: 16.67%;
         border: 2px solid #76B043;
         border-radius: 6px;
         
+        cursor: pointer;
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -10125,7 +10179,7 @@ bottom: 16.67%;
     
     #temp_desk_art_2_boton_icono_carrito{
         position: absolute;
-    left: 11.11%;
+    left: -38.89%;
     right: 16.67%;
     top: 22.22%;
     bottom: 16.67%;
@@ -10515,6 +10569,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -10552,7 +10607,7 @@ height: 36px;
 
 #temp_desk_art_3_boton_icono_carrito{
     position: absolute;
-left: 11.11%;
+left: -38.89%;
 right: 16.67%;
 top: 22.22%;
 bottom: 16.67%;
@@ -10858,6 +10913,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -10895,7 +10951,7 @@ height: 36px;
 
 #temp_desk_art_4_boton_icono_carrito{
     position: absolute;
-left: 11.11%;
+left: -38.89%;
 right: 16.67%;
 top: 22.22%;
 bottom: 16.67%;
@@ -11201,6 +11257,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -11238,7 +11295,7 @@ height: 36px;
 
 #temp_desk_art_5_boton_icono_carrito{
     position: absolute;
-left: 11.11%;
+left: -38.89%;
 right: 16.67%;
 top: 22.22%;
 bottom: 16.67%;
@@ -11544,6 +11601,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -11581,7 +11639,7 @@ height: 36px;
 
 #temp_desk_art_6_boton_icono_carrito{
     position: absolute;
-left: 11.11%;
+left: -38.89%;
 right: 16.67%;
 top: 22.22%;
 bottom: 16.67%;
@@ -11623,6 +11681,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 24px;
+cursor: pointer;
 }
 
 #temp_desk_boton_contenido{
@@ -11640,7 +11699,7 @@ top: 272px;
 background: #F26522;
 
 border: 2px solid #000000;
-
+cursor: pointer;
 box-shadow: 3px 3px 0px #000000;
 border-radius: 6px;
 }
@@ -11674,13 +11733,15 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 
-position: absolute;
+position: fixed;
 width: 60px;
 height: 60px;
-left: 1240px;
-top: 684px;
+left: 95%;
+top: 93%;
+z-index: 10;
 
 border-radius: 30px;
+border: none;
 }
 
 #img_whatsapp_desk{
@@ -11698,6 +11759,7 @@ flex-grow: 0;
 #marcas_desk{
     position: absolute;
 height: 144px;
+width: 1270px;
 left: 48px;
 right: 48px;
 top: 1398px;
@@ -11743,6 +11805,7 @@ top: calc(50% - 48px/2);
 
 background: #FFFFFF;
 
+cursor: pointer;
 border: 1px solid #C8C8C8;
 border-radius: 24px;
 }
@@ -11785,6 +11848,7 @@ top: calc(50% - 48px/2);
 
 background: #FFFFFF;
 
+cursor: pointer;
 border: 1px solid #C8C8C8;
 border-radius: 24px;
 }
@@ -12268,9 +12332,10 @@ width: 120px;
 height: 72px;
 left: calc(50% - 120px/2 + 162px);
 top: calc(50% - 72px/2 + 42px);
+cursor: pointer;
 
 /* black */
-
+border: none;
 background: #000000;
 opacity: 0.75;
 border-radius: 12px;
@@ -12689,6 +12754,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -12726,7 +12792,7 @@ height: 36px;
 
 #dia_desk_art_boton_icono_carrito{
     position: absolute;
-left: 11.11%;
+left: -38.89%;
 right: 16.67%;
 top: 22.22%;
 bottom: 16.67%;
@@ -13291,6 +13357,8 @@ padding: 0px;
 width: 57px;
 height: 12px;
 
+background: none;
+border: none;
 flex: none;
 order: 1;
 align-self: flex-end;
@@ -13645,6 +13713,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -13712,6 +13781,7 @@ bottom: 0px;
       
     background: #FFFFFF;
 
+    cursor: pointer;
     border: 1px solid #C8C8C8;
     border-radius: 24px;
 }
@@ -13753,6 +13823,7 @@ top: calc(50% - 48px/2);
 
 background: #FFFFFF;
 
+cursor: pointer;
 border: 1px solid #C8C8C8;
 border-radius: 24px;
 }
@@ -14081,6 +14152,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -14425,6 +14497,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -14854,6 +14927,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -15198,6 +15272,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -15542,6 +15617,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -15886,6 +15962,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -16230,6 +16307,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -16374,6 +16452,7 @@ bottom: 0px;
  
     border: 1px solid #C8C8C8;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 #campana_desk_controles_izq_div_drop{
@@ -16416,6 +16495,7 @@ background: #FFFFFF;
 
 border: 1px solid #C8C8C8;
 border-radius: 24px;
+cursor: pointer;
 }
 
 #campana_desk_controles_der_div_drop{
@@ -16776,6 +16856,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -18150,6 +18231,8 @@ padding: 0px;
 width: 57px;
 height: 12px;
 
+background: none;
+border: none;
 flex: none;
 order: 1;
 align-self: flex-end;
@@ -18222,6 +18305,7 @@ bottom: 0px;
  
     border: 1px solid #C8C8C8;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 #rec_carrusel_desk_controles_izq_div_drop{
@@ -18264,6 +18348,7 @@ background: #FFFFFF;
 
 border: 1px solid #C8C8C8;
 border-radius: 24px;
+cursor: pointer;
 }
 
 #rec_carrusel_desk_controles_der_div_drop{
@@ -18616,6 +18701,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -18960,6 +19046,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -19389,6 +19476,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -19733,6 +19821,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -20077,6 +20166,7 @@ flex-grow: 0;
     border: 2px solid #76B043;
     border-radius: 6px;
     
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -20503,6 +20593,7 @@ flex-grow: 0;
     
     background: #FFFFFF;
 
+    cursor: pointer;
     border: 2px solid #76B043;
     border-radius: 6px;
     
@@ -20560,8 +20651,10 @@ height: 60px;
 left: 623px;
 top: 4936px;
 
+cursor: pointer;
 background: #FDB913;
 border-radius: 120px 120px 0px 0px;
+border: none;
 }
 
 #volver_desk_flecha{
@@ -20681,7 +20774,9 @@ padding: 0px;
 
 width: 70px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -20702,6 +20797,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss01' on, 'case' on;
 
 color: #8C8C8C;
@@ -20753,7 +20849,9 @@ padding: 0px;
 
 width: 52px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -20774,6 +20872,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss01' on, 'case' on;
 
 color: #8C8C8C;
@@ -20825,7 +20924,9 @@ padding: 0px;
 
 width: 60px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -20845,6 +20946,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
+text-decoration: none;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
 
@@ -20880,7 +20982,9 @@ padding: 0px;
 
 width: 102px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -20901,6 +21005,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss01' on, 'case' on;
 
 color: #8C8C8C;
@@ -20918,7 +21023,9 @@ padding: 0px;
 
 width: 82px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -20938,6 +21045,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
+text-decoration: none;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
 
@@ -20956,7 +21064,9 @@ padding: 0px;
 
 width: 78px;
 height: 12px;
-
+cursor: pointer;
+background: none;
+border: none;
 flex: none;
 order: 2;
 flex-grow: 0;
@@ -20975,6 +21085,7 @@ line-height: 12px;
 display: flex;
 align-items: center;
 text-align: center;
+text-decoration: none;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 font-feature-settings: 'ss01' on, 'case' on;
@@ -21046,6 +21157,7 @@ letter-spacing: 0.01em;
 font-feature-settings: 'ss01' on, 'case' on;
 
 color: #8C8C8C;
+border: none;
 }
 
 #pie_desk_columna_2_btn{
@@ -21061,7 +21173,7 @@ left: calc(50% - 70px/2 + 142px);
 top: 130px;
 
 background: #FFFFFF;
-
+cursor: pointer;
 border: 2px solid #000000;
 
 box-shadow: 3px 3px 0px #000000;
