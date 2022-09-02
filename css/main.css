@@ -57,10 +57,10 @@ bottom: 28px;
 
 #icon_portada{
     position: absolute;
-left: -10.59%;
-right: 6.41%;
-top: -14.89%;
-bottom: 11.02%;
+    height: 126px;
+width: 274.5px;
+left: 0px;
+top: 0px;
 
 }
 
@@ -239,12 +239,29 @@ color: #8C8C8C;
 border:none;
 }
 
+#lista_buscador{
+    position: absolute;
+    width: 641.5px;
+    top: 75px;
+    left: -14px;
+
+    text-align: left;
+    font-size: 26px;
+    list-style: none;
+    
+    border: 0px solid;
+    padding: 0px 90px;
+    background-color: whitesmoke;
+    z-index: 3;
+
+}
+
 /*** ARTICULOS ***/
 
 #temporada{
     position: absolute;
 width: 666px;
-height: 400.56.5px;
+height: 400.5px;
 left: 27px;
 top: 400px;
 
@@ -11736,8 +11753,8 @@ padding: 0px;
 position: fixed;
 width: 60px;
 height: 60px;
-left: 95%;
-top: 93%;
+left: 94%;
+top: 87%;
 z-index: 10;
 
 border-radius: 30px;
