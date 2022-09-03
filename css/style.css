@@ -3444,6 +3444,7 @@ z-index: 10;
 background: #FDB913;
 border: none;
 border-radius: 120px 120px 0px 0px;
+cursor: pointer;
 }
 
 #volver_mobile_flecha{
@@ -3622,7 +3623,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
 
+#lista_desk_art_1_img_producto:hover{
+transform: scale(1.1);
 }
 
 /*** FICHA ***/
@@ -3895,6 +3901,12 @@ border-radius: 6px;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
+
+}
+
+#lista_desk_art_1_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_1_boton_contenido{
@@ -3975,6 +3987,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
+
+#lista_desk_art_2_img_producto:hover{
+transform: scale(1.1);
 }
 
 #lista_desk_art_2_div_ficha{
@@ -4244,6 +4262,12 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
+
+}
+
+#lista_desk_art_2_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_2_boton_contenido{
@@ -4321,7 +4345,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
 
+#lista_desk_art_3_img_producto:hover{
+transform: scale(1.1);
 }
 
 /*** FICHA ***/
@@ -4513,6 +4542,12 @@ border-radius: 6px;
 flex: none;
 order: 2;
 flex-grow: 0;
+cursor: pointer;
+
+}
+
+#lista_desk_art_3_boton:hover{
+    background: #EC2227;
 }
 
 #lista_desk_art_3_boton_texto{
@@ -4661,7 +4696,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
 
+#lista_desk_art_4_img_producto:hover{
+transform: scale(1.1);
 }
 
 /*** FICHA ***/
@@ -4934,6 +4974,12 @@ cursor: pointer;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
+
+}
+
+#lista_desk_art_4_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_4_boton_contenido{
@@ -5014,6 +5060,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
+
+#lista_desk_art_5_img_producto:hover{
+transform: scale(1.1);
 }
 
 #lista_desk_art_5_div_ficha{
@@ -5283,6 +5335,12 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
+
+}
+
+#lista_desk_art_5_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_5_boton_contenido{
@@ -5362,6 +5420,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
+
+#lista_desk_art_6_img_producto:hover{
+transform: scale(1.1);
 }
 
 #lista_desk_art_6_div_ficha{
@@ -5631,6 +5695,12 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
+
+}
+
+#lista_desk_art_6_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_6_boton_contenido{
@@ -5795,7 +5865,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
 
+#lista_desk_art_7_img_producto:hover{
+transform: scale(1.1);
 }
 
 /*** FICHA ***/
@@ -6068,6 +6143,12 @@ cursor: pointer;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
+
+}
+
+#lista_desk_art_7_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_7_boton_contenido{
@@ -6233,7 +6314,12 @@ top: 0px;
 bottom: 216px;
 width: 360px;
 height: 438px;
+transition: .5s;
+    cursor: pointer;
+}
 
+#lista_desk_art_8_img_producto:hover{
+transform: scale(1.1);
 }
 
 /*** FICHA ***/
@@ -6506,6 +6592,12 @@ border-radius: 6px;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
+
+}
+
+#lista_desk_art_8_boton:hover{
+    background: #f7e09e;
 }
 
 #lista_desk_art_8_boton_contenido{
