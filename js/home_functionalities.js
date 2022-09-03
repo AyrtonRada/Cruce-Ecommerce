@@ -65,4 +65,17 @@ window.addEventListener('load', () => {
 
     })
 
+
+    //***** Escritorio *****/
+
+     /**
+     ** Ocultar el Top Banner 
+     */
+     let bBannerDesk = d.getElementById('cerrado_desk')
+     let tpBannerDesk = d.getElementById('top_banner_desk')
+ 
+     bBannerDesk.addEventListener('click', () => {
+         tpBannerDesk.style.display = 'none'
+     })
+
 })

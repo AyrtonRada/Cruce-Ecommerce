@@ -136,7 +136,7 @@ overflow-x: scroll;
 
 #text_banner{
     position: absolute;
-    width: 720px;
+    width: 1766.25px;
     height: 40.5px;
     left: 0px;
     right: -501px;
@@ -154,9 +154,25 @@ overflow-x: scroll;
     
     background: #7D5A94;
     color: #FFFFFF;
-white-space: pre;
-padding: 5px;
+    white-space: pre;
+    padding: 5px;
+
+    
+    /** Animacion **/
+
+    animation: text_banner 8s linear infinite;
 }
+
+@keyframes text_banner{
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(-705px)
+    }
+}
+
+
 
 #cerrado{
     position: absolute;
@@ -294,6 +310,19 @@ overflow-x: scroll;
     font-feature-settings: 'zero' on;
     
     color: #000000;
+
+    /** Animacion **/
+
+    animation: titulo 10s linear infinite;
+}
+
+@keyframes titulo {
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(-1045px)
+    }
 }
 
 #articulos{
@@ -1538,6 +1567,7 @@ width: 3058.89px;
 height: 135px;
 left: -1156px;
 top: 40.5px;
+
 }
 
 /*** DISNEY ***/
@@ -1951,7 +1981,7 @@ border-radius: 0px 0px 24px 24px;
 }
 
 #beneficios_cuotas{
-    width: 414px;
+    width: 363px;
 height: 81px;
 
 flex: none;
@@ -9465,7 +9495,14 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
 }
+
+#temp_desk_art_1_img_producto:hover{
+    transform: scale(1.1);
+}
+
 
 #temp_desk_art_1_div_ficha{
     position: absolute;
@@ -9894,6 +9931,12 @@ bottom: 16.67%;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+    }
+
+    #temp_desk_art_2_img_producto:hover{
+        transform: scale(1.1);
     }
     
     #temp_desk_art_2_div_ficha{
@@ -10322,6 +10365,12 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
+}
+
+#temp_desk_art_3_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #temp_desk_art_3_div_ficha{
@@ -10666,6 +10715,12 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
+}
+
+#temp_desk_art_4_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #temp_desk_art_4_div_ficha{
@@ -11002,6 +11057,7 @@ width: 210px;
 height: 288px;
 left: 0px;
 top: 0px;
+
 }
 
 #temp_desk_art_5_img_producto{
@@ -11010,6 +11066,12 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
+}
+
+#temp_desk_art_5_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #temp_desk_art_5_div_ficha{
@@ -11354,6 +11416,12 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
+}
+
+#temp_desk_art_6_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #temp_desk_art_6_div_ficha{
@@ -12311,7 +12379,12 @@ left: 25.51%;
 right: 0%;
 top: 13.77%;
 bottom: 0%;
+transition: .5s;
+cursor: pointer;
+}
 
+#dia_desk_video:hover{
+    transform: scale(1.1);
 }
 
 #dia_desk_video_play{
@@ -12507,6 +12580,12 @@ left: 0px;
 right: 15px;
 top: 0px;
 bottom: 216px;
+transition: .5s;
+cursor: pointer;
+}
+
+#dia_desk_art_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #dia_desk_art_div_ficha{
@@ -13467,6 +13546,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#carrusel_desk_art_1_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #carrusel_desk_art_1_div_ficha{
@@ -13906,6 +13991,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+    }
+
+#carrusel_desk_art_2_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #carrusel_desk_art_2_div_ficha{
@@ -14251,6 +14342,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#carrusel_desk_art_3_img_producto:hover{
+transform: scale(1.1);
 }
 
 #carrusel_desk_art_3_div_ficha{
@@ -14681,6 +14778,13 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+    }
+
+    #carrusel_desk_art_4_img_producto:hover{
+    transform: scale(1.1);
+
 }
 
 #carrusel_desk_art_4_div_ficha{
@@ -15026,6 +15130,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#carrusel_desk_art_5_img_producto:hover{
+transform: scale(1.1);
 }
 
 #carrusel_desk_art_5_div_ficha{
@@ -15371,6 +15481,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+    }
+
+#carrusel_desk_art_6_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #carrusel_desk_art_6_div_ficha{
@@ -15716,6 +15832,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#carrusel_desk_art_7_img_producto:hover{
+transform: scale(1.1);
 }
 
 #carrusel_desk_art_7_div_ficha{
@@ -16061,6 +16183,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+    }
+
+#carrusel_desk_art_8_img_producto:hover{
+    transform: scale(1.1);
 }
 
 #carrusel_desk_art_8_div_ficha{
@@ -16610,6 +16738,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#campana_desk_art_1_img_producto:hover{
+transform: scale(1.1);
 }
 
 #campana_desk_art_1_div_ficha{
@@ -16952,6 +17086,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#campana_desk_art_2_img_producto:hover{
+transform: scale(1.1);
 }
 
 #campana_desk_art_2_div_ficha{
@@ -17294,6 +17434,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+cursor: pointer;
+}
+
+#campana_desk_art_3_img_producto:hover{
+transform: scale(1.1);
 }
 
 #campana_desk_art_3_div_ficha{
@@ -18455,6 +18601,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_1_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_1_div_ficha{
@@ -18800,6 +18952,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_2_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_2_div_ficha{
@@ -19230,6 +19388,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_3_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_3_div_ficha{
@@ -19575,6 +19739,12 @@ width: 210px;
 height: 288px;
 left: calc(50% - 210px/2);
 top: 6px;
+transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_4_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_4_div_ficha{
@@ -19920,6 +20090,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_5_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_5_div_ficha{
@@ -20350,6 +20526,12 @@ top: 0px;
     right: 15px;
     top: 0px;
     bottom: 216px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#rec_carrusel_desk_art_6_img_producto:hover{
+transform: scale(1.1);
 }
 
 #rec_carrusel_desk_art_6_div_ficha{
